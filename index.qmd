@@ -12,6 +12,9 @@ about:
     href: https://www.linkedin.com/in/carl-klein/
   - icon: envelope
     href: mailto:carlj.klein@gmail.com
+format:
+  html:
+    email-obfuscation: javascript
 ---
 
 Welcome to my website! When I'm not in the mountains, I'm fine tuning my data science skills.

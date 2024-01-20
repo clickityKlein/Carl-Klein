@@ -35,6 +35,7 @@ website:
     
 format:
   html:
+    email-obfuscation: javascript
     grid: 
       body-width: 2000px
       sidebar-width: 200px
@@ -45,7 +46,6 @@ format:
     code-link: true
     code-fold: show
     code-tools: false
-    email-obfuscation: javascript
     code-block-border-left: "#2C3E50"
     toc: true
     
