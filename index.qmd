@@ -2,8 +2,8 @@
 title: "Carl Klein"
 image: images/MountRainier.jpg
 about:
-  template: jolla
-  image-width: 14em
+  template: solana
+  image-width: 15cm
   image-shape: round
   links: 
   - icon: github
