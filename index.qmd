@@ -1,11 +1,15 @@
 ---
-title: "Carl-Klein"
+title: "Carl Klein"
+image: images/MountRainier.jpg
+about:
+  template: jolla
+  image-width: 20cm
+  image-shape: round
+  links: 
+  - icon: github
+    href: https://github.com/clickityKlein
+  - icon: linkedin
+    href: https://www.linkedin.com/in/carl-klein/
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hello, I am Carl Klein.

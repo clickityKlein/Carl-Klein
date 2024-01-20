@@ -6,9 +6,26 @@ website:
   title: "Carl-Klein"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Resume"
+        href: resume.qmd
+        
+    right:
       - about.qmd
+      - icon: github
+        menu:
+          - text: "Main Page"
+            href: https://github.com/clickityKlein
+          - text: "Repositories"
+            href: https://github.com/clickityKlein?tab=repositories
+          - text: "Source Code (this website)"
+            href: https://github.com/clickityKlein/Carl-Klein
+      - icon: linkedin
+        href: https://www.linkedin.com/in/carl-klein/
+    
 
 format:
   html:
