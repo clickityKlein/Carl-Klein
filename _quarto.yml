@@ -4,23 +4,29 @@ project:
 
 website:
   title: "Carl Klein"
+  favicon: images/MountRainier.jpg
+  page-footer:
+    center: |
+      <span class="container"><strong>[Contact Carl Klein](mailto:carlj.klein@gmail.com){target="_blank"}</strong></span>
+    background: "#2C3E50"
+      
   navbar:
     left:
       - text: "Home"
         href: index.qmd
       - text: "Featured Projects"
         href: featured_projects.qmd
-      - text: "All Completed Projects"
+      - text: "All Projects"
         href: projects.qmd
-      - text: "Resume"
+      - text: "Downloadable Resume"
         href: resume.qmd
         
     right:
       - icon: github
         menu:
-          - text: "Main Page"
+          - text: "Carl Klein's Main Page"
             href: https://github.com/clickityKlein
-          - text: "Repositories"
+          - text: "Carl Klein's Repositories"
             href: https://github.com/clickityKlein?tab=repositories
           - text: "Source Code (this website)"
             href: https://github.com/clickityKlein/Carl-Klein
@@ -29,9 +35,18 @@ website:
     
 format:
   html:
+    grid: 
+      body-width: 2000px
+      sidebar-width: 200px
+      margin-width: 200px
     theme: flatly
     css: styles.css
+    citations-hover: true
+    code-link: true
+    code-fold: show
+    code-tools: false
+    email-obfuscation: javascript
     toc: true
-
+    
 
 
