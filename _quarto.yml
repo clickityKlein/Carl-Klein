@@ -26,7 +26,6 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/carl-klein/
     
-
 format:
   html:
     theme: cosmo
