@@ -4,8 +4,12 @@ title: "Downloadable Resume"
 
 Feel free to download a copy of my resume!
 
+<div class="download-btn">
+  <a href="images/carl_klein_resume.pdf" download>Download Resume</a>
+</div>
+
 <iframe
-  width="1050"
-  height="1200"
+  width="800"
+  height="800"
   src="images/carl_klein_resume.pdf">
 </iframe>
