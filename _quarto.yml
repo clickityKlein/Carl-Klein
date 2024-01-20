@@ -3,12 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Carl-Klein"
+  title: "Carl Klein"
   navbar:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Projects"
+      - text: "Featured Projects"
+        href: featured_projects.qmd
+      - text: "All Completed Projects"
         href: projects.qmd
       - text: "Resume"
         href: resume.qmd

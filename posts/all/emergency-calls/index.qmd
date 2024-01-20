@@ -1,0 +1,8 @@
+---
+title: "Emergency Calls"
+author: "Me"
+date: "2022-11-21"
+categories: [python, medium, analysis, exploratory, jupyter, numpy, pandas, matplotlib, sklearn]
+---
+
+Emergency Calls

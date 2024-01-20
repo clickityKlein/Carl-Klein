@@ -1,5 +1,10 @@
 ---
 title: "Resume"
+page-layout: full
 ---
 
-The Resume Page
+<iframe
+  width="800"
+  height="800"
+  src="images/carl_klein_resume.pdf">
+</iframe>

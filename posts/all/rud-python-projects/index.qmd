@@ -1,0 +1,8 @@
+---
+title: "Rudimentary Python Projects"
+author: "Me"
+date: "2022-06-16"
+categories: [python]
+---
+
+Rudimentary Pythjon Projects

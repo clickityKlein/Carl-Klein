@@ -1,0 +1,9 @@
+---
+title: "Bias in Facial Classification ML Models"
+author: "Carl Klein, Patrick Cooper, Bhavana Jonnalagadda, Piya (Leo) Ngamkam, Dhairya Veera"
+date: "2023-12-18"
+categories: [python, r, r-studio, analysis, exploratory, quarto, dashboard, shiny, plotly, hypothesis-testing, machine-learning, statistics, latex, youtube]
+image: bias-in-ml-models.png
+---
+
+Bias in Facial Classification ML Models

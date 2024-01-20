@@ -1,0 +1,8 @@
+---
+title: "Basic Flashcards Application"
+author: "Me"
+date: "2023-01-13"
+categories: [python, application, object-oriented-programming, numpy, pandas, random, sympy]
+---
+
+Basic Flashcards Application
