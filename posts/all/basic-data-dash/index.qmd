@@ -1,6 +1,6 @@
 ---
 title: "Basic Data Dashboard"
-author: "Me"
+author: "Carl Klein"
 date: "2023-03-28"
 categories: [python, flask, numpy, pandas, plotly, dashboard, deploy, heroku]
 ---

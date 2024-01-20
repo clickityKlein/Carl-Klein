@@ -16,7 +16,6 @@ website:
         href: resume.qmd
         
     right:
-      - about.qmd
       - icon: github
         menu:
           - text: "Main Page"
@@ -30,7 +29,7 @@ website:
     
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 

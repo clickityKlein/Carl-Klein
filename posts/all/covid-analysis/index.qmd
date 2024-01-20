@@ -1,6 +1,6 @@
 ---
 title: "COVID Analysis"
-author: "Me"
+author: "Carl Klein"
 date: "2023-08-23"
 categories: [r, r-studio, tidyverse, exploratory, analysis, lubridate, usmap, gridextra, zoo]
 ---

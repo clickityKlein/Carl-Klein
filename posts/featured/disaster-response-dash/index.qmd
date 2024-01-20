@@ -1,6 +1,6 @@
 ---
 title: "Disaster Response Dashboard"
-author: "Me"
+author: "Carl Klein"
 date: "2023-04-27"
 categories: [python, etl-pipeline, machine-learning-pipeline, flask, joblib, nltk, numpy, pandas, plotly, sklearn, sqlalchemy, sql, dashboard]
 image: disaster-response.png

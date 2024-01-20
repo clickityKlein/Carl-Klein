@@ -1,6 +1,6 @@
 ---
 title: "Rudimentary Python Projects"
-author: "Me"
+author: "Carl Klein"
 date: "2022-06-16"
 categories: [python]
 ---

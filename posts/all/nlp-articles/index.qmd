@@ -1,6 +1,6 @@
 ---
 title: "Natural Language Processing with Articles"
-author: "Me"
+author: "Carl Klein"
 date: "2023-07-30"
 categories: [python, medium, etl-pipeline, analysis, exploratory, numpy, pandas, matplotlib, nltk, re, sklearn]
 image: nlp-articles.png
