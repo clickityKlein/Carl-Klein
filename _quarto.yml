@@ -16,7 +16,7 @@ website:
         href: index.qmd
       - text: "Featured Projects"
         href: featured_projects.qmd
-      - text: "All Projects"
+      - text: "Project Archive"
         href: projects.qmd
       - text: "Virtual Resume"
         href: virtual-resume.qmd

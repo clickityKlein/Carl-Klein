@@ -1,5 +1,5 @@
 ---
-title: "All Completed Projects"
+title: "Project Archive"
 listing:
   contents: posts/all
   sort: "date desc"
