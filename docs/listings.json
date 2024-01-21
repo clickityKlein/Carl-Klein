@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/featured_projects.html",
-    "items": [
-      "/posts/featured/bias-in-ml-models/index.html",
-      "/posts/featured/nlp-articles/index.html",
-      "/posts/featured/disaster-response-dash/index.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/posts/all/bias-in-ml-models/index.html",
@@ -19,6 +11,14 @@
       "/posts/all/emergency-calls/index.html",
       "/posts/all/rud-python-projects/index.html",
       "/posts/all/vba-projects/index.html"
+    ]
+  },
+  {
+    "listing": "/featured_projects.html",
+    "items": [
+      "/posts/featured/bias-in-ml-models/index.html",
+      "/posts/featured/nlp-articles/index.html",
+      "/posts/featured/disaster-response-dash/index.html"
     ]
   }
 ]

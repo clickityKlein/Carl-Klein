@@ -1,0 +1,159 @@
+---
+title: "Virtual Resume"
+---
+
+# Career Experience
+
+## Parker, Smith & Feek
+
+::: columns
+::: {.column width="65%"}
+
+### Benefits Data Analyst
+#### 2018 - 2023
+
+My first career experience after finishing my undergraduate degree. During this time, I provided analytical insights and financial reports to multiple clients, all while building a network and learning about professionalism.
+
+**Key Tasks and Accomplishments:**
+
+- Updated and monitored financial and health data used in conducting analyses to identify trends, discrepancies, 
+and produce recommendations.
+- Leveraged findings during the renewal process and utilized data to negotiate premiums with insurance carriers.
+- Communicated key metrics and statistics by preparing and presenting periodic reports for clients.
+- Automated internal tasks by creating VBA macros and scripts.
+
+Small scale automation projects during my time as a Benefits Data Analyst helped me start to develop my programming repertoire, and a few of the generic models I built prior to implementing in my work can be found [here](/posts/all/vba-projects/index.qmd).
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+![](images/psf_logo.png)
+:::
+:::
+
+# Education
+
+## Master of Science, Data Science (MSDS)
+
+::: columns
+::: {.column width="30%"}
+
+![](images/cu_boulder.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+
+### University of Colorado. Boulder
+#### 2023 - Current
+#### Expected Graduation 2025
+
+
+**Key Accolades**
+
+- [Bias in Facial Classification Machine Learning Models](/posts/all/bias-in-ml-models/index.qmd)
+:::
+:::
+
+## Bachelor of Arts in Mathematics, Minor in Applied Mathematics
+
+::: columns
+::: {.column width="30%"}
+
+![](images/uw_seattle.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+
+### University of Washington, Seattle
+#### 2013 - 2017
+#### Graduated 2017
+
+
+**Key Accolades**
+
+- Alpha Sigma Phi Fraternity
+- UW Actuary Club
+  - Co-President
+  - Communications Chair
+:::
+:::
+
+# Certifications
+
+## Data Science Nanodegree
+
+::: columns
+::: {.column width="65%"}
+
+### Udacity
+#### 2023
+
+Gained real-world data science experience with curriculum and projects designed by industry experts.
+
+An online certificate of completion can be found [here](https://graduation.udacity.com/confirm/e/4e26e3fc-c452-11ec-a92d-ffb035cf7275).
+
+**Knowledge Gained:**
+
+- Used Python across many data science topics, while utilizing Git to document the progress.
+- Object Oriented Programming and Web Development.
+- ETL Pipelines, Natural Language Processing, and Machine Learning Pipelines.
+- A/B Testing and Recommendation Engines.
+
+**Projects Completed:**
+
+- [Capstone: Natural Language Processing with Articles](/posts/all/nlp-articles/index.qmd)
+- [Disaster Response Dashboard](/posts/all/disaster-response-dash/index.qmd)
+- [Basic Flashcards Applications](/posts/all/flashcards-basic/index.qmd)
+- [Emergency Calls](/posts/all/emergency-calls/index.qmd)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+![](images/Udacity.png)
+:::
+:::
+
+## Expressway to Data Science: R Programming and Tidyverse
+
+::: columns
+::: {.column width="65%"}
+
+### Coursera
+#### 2023
+
+A specialization in R programming earned upon the completion of 3 courses:
+
+- Introduction to R Programming and Tidyverse
+- Data Analysis with Tidyverse
+- R Programming and Tidyverse Capstone Project
+
+An online certificate of completion can be found [here](https://www.coursera.org/account/accomplishments/specialization/WF8N8PFDWFCN).
+
+**Knowledge Gained:**
+
+- Use R and the tidyverse to import data from external repositories and local CSV files.
+- Clean and transform data for analysis, construct visualizations.
+- Document and reflect on analyses using RMarkdown.
+
+**Projects Completed:**
+
+- [Capstone: COVID-19 Analysis](/posts/all/covid-analysis/index.qmd)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+![](images/r_specialization.png)
+:::
+:::
