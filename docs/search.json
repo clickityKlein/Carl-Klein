@@ -42,62 +42,6 @@
     "text": "Expressway to Data Science: R Programming and Tidyverse\n\n\n\nCoursera\n\n2023\nA specialization in R programming earned upon the completion of 3 courses:\n\nIntroduction to R Programming and Tidyverse\nData Analysis with Tidyverse\nR Programming and Tidyverse Capstone Project\n\nAn online certificate of completion can be found here.\nKnowledge Gained:\n\nUse R and the tidyverse to import data from external repositories and local CSV files.\nClean and transform data for analysis, construct visualizations.\nDocument and reflect on analyses using RMarkdown.\n\nProjects Completed:\n\nCapstone: COVID-19 Analysis"
   },
   {
-    "objectID": "virtual-resume.html#excel",
-    "href": "virtual-resume.html#excel",
-    "title": "Virtual Resume",
-    "section": "Excel",
-    "text": "Excel\nThe main analysis tool of my first position after my undergraduate degree, I used Excel almost daily for 5 years for real world analyses. This encompassed the exploratory, the explanatory, and anything visual; I was tasked with creating PowerPoint presentations, PDFs, and dashboards all driven by Excel.\nMy Downloadable Resume was even createad using Excel."
-  },
-  {
-    "objectID": "virtual-resume.html#sql",
-    "href": "virtual-resume.html#sql",
-    "title": "Virtual Resume",
-    "section": "SQL",
-    "text": "SQL\nI’ve taken several courses featuring SQL, and have used SQL and SQLAlchemy as the database tool for projects such as the Disaster Response Dashboard."
-  },
-  {
-    "objectID": "virtual-resume.html#vba",
-    "href": "virtual-resume.html#vba",
-    "title": "Virtual Resume",
-    "section": "VBA",
-    "text": "VBA\nBecause I was tasked with primarily using Excel in my first position after my undergraduate degree, there were some disadvantages that aren’t inherent in tools such as Python. To combat this, I learned VBA and implemented several macros and even completed entire projects aimed at increasing efficiency and reducing errors.\nAlthough not as user friendly as a language like Python, using VBA shined a light on how processes surrounding data pipelines could look, and ultimately gave me a nudge to continue down the data science pathway.\nPlease see VBA Projects for some examples."
-  },
-  {
-    "objectID": "virtual-resume.html#git-github",
-    "href": "virtual-resume.html#git-github",
-    "title": "Virtual Resume",
-    "section": "Git / GitHub",
-    "text": "Git / GitHub\nI use Git and GitHub for almost every single project now. From manually copying and pasting documentation for my first few projects (Rudimentary Python Projects, VBA Projects), learning command line and proper project documentation during the Data Science Nanodegree certificate listed above, to creating this website heavily reliant on Git, I’ve gained great confidence in the tool."
-  },
-  {
-    "objectID": "virtual-resume.html#python",
-    "href": "virtual-resume.html#python",
-    "title": "Virtual Resume",
-    "section": "Python",
-    "text": "Python\nA staple of modern programming, Python is my preferred language.\n\nBasic Functions\nObject Oriented Programming\nNumPy\nPandas\nVisualizations\n\nmatplotlib\nseaborn\nplotly\n\nJupyter notebooks\n\ninteractivty with ipywidgets\n\nsklearn\nNLTK\n\nI’m quite familiar with each of these concepts and libraries, and I’m quickly becoming proficient at implementing them in a host of scenarios."
-  },
-  {
-    "objectID": "virtual-resume.html#latex",
-    "href": "virtual-resume.html#latex",
-    "title": "Virtual Resume",
-    "section": "LaTeX",
-    "text": "LaTeX\nAfter working for a few years and deciding to go deeper into data science, I needed to brush up on my math skills. Something that I neglected from my undergraduate years was keeping my math notes well organized and accessible. This time around, I decided that I was going to create a system that I could return to when needed.\nLearning LaTeX has actually proven to be indispensable during my time back in my Master’s of Data Science program."
-  },
-  {
-    "objectID": "virtual-resume.html#r",
-    "href": "virtual-resume.html#r",
-    "title": "Virtual Resume",
-    "section": "R",
-    "text": "R\nProbably second to Python as my preferred language, I’ve used R extensively in my statistics courses. I was surprised to find it almost as capable as Python.\nPart of completing the Expressway to Data Science: R Programming and Tidyverse certificate listed above was successfully passing the capstone, for which I did the COVID Analysis project.\nAdditionally, the project Bias in Facial Classification ML Models was done almost exclusively in R. Although a group effort, I was responsible for building the Shiny dashboard seen in this section. The standalone app is hosted on shinyapps server, available here."
-  },
-  {
-    "objectID": "virtual-resume.html#quarto",
-    "href": "virtual-resume.html#quarto",
-    "title": "Virtual Resume",
-    "section": "Quarto",
-    "text": "Quarto\nI was first introduced to Quarto during the project Bias in Facial Classification ML Models. since then, I’ve recognized the potential in it’s utility. To name a few instances:\n\nAcademic Papers\nInteractive Dashboards\nWebsites\n\nIn fact, I’ve created this website using Quarto."
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Project Archive",

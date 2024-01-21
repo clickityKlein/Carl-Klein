@@ -160,12 +160,179 @@ An online certificate of completion can be found [here](https://www.coursera.org
 
 # Technical Proficencies
 
+::: columns
+::: {.column width="15%"}
+### Excel
+:::
 
+::: {.column width="5%"}
+:::
+
+::: {.column width="80%"}
+<details>
+The main analysis tool of my first position after my undergraduate degree, I used Excel almost daily for 5 years for real world analyses. This encompassed the exploratory, the explanatory, and anything visual; I was tasked with creating PowerPoint presentations, PDFs, and dashboards all driven by Excel.
+
+*My [Downloadable Resume](resume.qmd) was even created using Excel.*
+</details>
+:::
+:::
+
+---
+
+::: columns
+::: {.column width="15%"}
+### SQL
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="80%"}
+<details>
+I've taken several courses featuring SQL, and have used SQL and SQLAlchemy as the database tool for projects such as the [Disaster Response Dashboard](/posts/featured/disaster-response-dash/index.qmd).
+</details>
+:::
+:::
+
+---
+
+::: columns
+::: {.column width="15%"}
+### VBA
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="80%"}
+<details>
+Because I was tasked with primarily using Excel in my first position after my undergraduate degree, there were some disadvantages that aren't inherent in tools such as Python. To combat this, I learned VBA and implemented several macros and even completed entire projects aimed at increasing efficiency and reducing errors.
+
+Although not as user friendly as a language like Python, using VBA shined a light on how processes surrounding data pipelines could look, and ultimately gave me a nudge to continue down the data science pathway.
+
+Please see [VBA Projects](/posts/all/vba-projects/index.qmd) for some examples.
+</details>
+:::
+:::
+
+---
+
+::: columns
+::: {.column width="15%"}
+### Git & GitHub
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="80%"}
+<details>
+I use Git and GitHub for *almost* every single project now. From manually copying and pasting documentation for my first few projects ([Rudimentary Python Projects](/posts/all/rud-python-projects/index.qmd), [VBA Projects](/posts/all/vba-projects/index.qmd)), learning command line and proper project documentation during the **Data Science Nanodegree** certificate listed above, to creating this website heavily reliant on Git, I've gained great confidence in the tool.
+</details>
+:::
+:::
+
+---
+
+::: columns
+::: {.column width="15%"}
+### Python
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="80%"}
+<details>
+A staple of modern programming, Python is my preferred language.
+
+- Basic Functions
+- Object Oriented Programming
+- NumPy
+- Pandas
+- Visualizations
+  - matplotlib
+  - seaborn
+  - plotly
+- Jupyter notebooks
+  - interactivty with ipywidgets
+- sklearn
+- NLTK
+
+I'm quite familiar with each of these concepts and libraries, and I'm quickly becoming proficient at implementing them in a host of scenarios.
+</details>
+:::
+:::
+
+---
+
+::: columns
+::: {.column width="15%"}
+### LaTeX
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="80%"}
+<details>
+After working for a few years and deciding to go deeper into data science, I needed to brush up on my math skills. Something that I neglected from my undergraduate years was keeping my math notes well organized and accessible. This time around, I decided that I was going to create a system that I could return to when needed.
+
+Learning LaTeX has actually proven to be indispensable during my time back in my Master's of Data Science program.
+</details>
+:::
+:::
+
+---
+
+::: columns
+::: {.column width="15%"}
+### R
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="80%"}
+<details>
+Probably second to Python as my preferred language, I've used R extensively in my statistics courses. I was surprised to find it almost as capable as Python.
+
+Part of completing the **Expressway to Data Science: R Programming and Tidyverse** certificate listed above was successfully passing the capstone, for which I did the [COVID Analysis](/posts/all/covid-analysis/index.qmd) project.
+
+Additionally, the project [Bias in Facial Classification ML Models](/posts/featured/bias-in-ml-models/index.qmd) was done almost exclusively in R. Although a group effort, I was responsible for building the Shiny dashboard seen in [this section](https://cuboulder-ds.github.io/5301-5000-Final-Report/data.html). The standalone app is hosted on *shinyapps server*, available [here](https://carlklein.shinyapps.io/5000-final/).
+</details>
+:::
+:::
+
+---
+
+::: columns
+::: {.column width="15%"}
+### Quarto
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="80%"}
+<details>
+I was first introduced to Quarto during the project [Bias in Facial Classification ML Models](/posts/featured/bias-in-ml-models/index.qmd). since then, I've recognized the potential in it's utility. To name a few instances:
+
+- Academic Papers
+- Interactive Dashboards
+- Websites
+
+In fact, I've created this website using Quarto.
+</details>
+:::
+:::
+
+<!--
 ## Excel
 
 The main analysis tool of my first position after my undergraduate degree, I used Excel almost daily for 5 years for real world analyses. This encompassed the exploratory, the explanatory, and anything visual; I was tasked with creating PowerPoint presentations, PDFs, and dashboards all driven by Excel.
 
-*My [Downloadable Resume](resume.qmd) was even createad using Excel.*
+*My [Downloadable Resume](resume.qmd) was even created using Excel.*
 
 
 ## SQL
@@ -231,4 +398,4 @@ I was first introduced to Quarto during the project [Bias in Facial Classificati
 - Websites
 
 In fact, I've created this website using Quarto.
-
+-->
