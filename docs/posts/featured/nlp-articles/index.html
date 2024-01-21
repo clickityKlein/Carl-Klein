@@ -196,7 +196,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Natural Language Processing with Articles</p>
+<p>Created an NLP model which attempted to predict the publisher given a news article.</p>
+<p><a href="https://github.com/clickityKlein/Articles-NLP">GitHub Repository</a></p>
+<p><a href="https://medium.com/@carlj.klein/publisher-prediction-natural-language-processing-nlp-with-news-articles-5e5dffe8c316">Medium Article</a></p>
+<p>The goal of this project was to attempt to create an NLP model which could correctly identify the publisher given an article.</p>
+<p>After cleaning and exploring the data via statistical and visual methods, attempt to create a classification model which will accurately predict publisher if given a news article.</p>
+<p>Without higher processing power, and a more equipt dataset, this will likely not be very accurate. Additionally, this only accounts for a small portion of the thousands of publishers and news networks, which means any article from outside the publishers in this dataset will result in an incorrect prediction.</p>
+<p>Overall, we were able to successfully clean and analyze a dataset surrounding our goal. After testing several models and parameters, there was a “best” model built. The f1-scores and accuracy were not ideal, however, the framework to continue to improve this model has been created!</p>
+<p>When it comes to potential improvements of this analysis and model, at the top of the list is obviously creating more accurate predictions. A starting point would be to perform a more robust parameter search. Given the proper hardware, it would be great to test the entire dataset (~150,000 articles) across not only each of the classifiers, but a grid search of parameters for each of the classifiers as well.</p>
+<p>Unfortunately, the instance of testing just the 3 max_depth parameters for the Random Forest Classifier on less than 10,000 rows of data took about 2 hours on the machine it was performed on. Maybe another machine is better equipt to take on the challenge!</p>
 
 
 

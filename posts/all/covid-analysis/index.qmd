@@ -5,4 +5,13 @@ date: "2023-08-23"
 categories: [r, r-studio, tidyverse, exploratory, analysis, lubridate, usmap, gridextra, zoo]
 ---
 
-COVID Analysis
+Analyzed COVID-19 from several sources using R.
+
+<a href="https://github.com/clickityKlein/COVID-Analysis">GitHub Repository</a>
+
+
+The goal of this project was to manipulate COVID-19 and population data across multiple sources to solve desired inquiries. Local data from the United States as well as global data is analyzed.
+
+Among the findings, there was one such visual I found compelling. The visual is of California broken down into counties showing a correlation of areas with higher concentrations of cases having higher concentrations of death.
+
+![California Cases and Deaths](california.png)

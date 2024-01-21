@@ -6,4 +6,29 @@ categories: [python, etl-pipeline, machine-learning-pipeline, flask, joblib, nlt
 image: disaster-response.png
 ---
 
-Disaster Response Dashboard
+Created a pipeline which classifies messages from various sources during an emergency. Additional step taken in deploying to Flask web application.
+
+<a href="https://github.com/clickityKlein/Disaster-Response">GitHub Repository</a>
+
+
+The Disaster Response Pipeline classifies messages from various sources during an emergency. Rather than searching through potentially important key words, a model has been trained to categorize each message.
+
+In the midst of an emergency, such as a natural disaster, thousands of messages are being sent. It's important to be able to categorize these messages to optimize efforts and resources.
+
+By utilizing natural language processing in a pipeline, a model was built to do just this.
+
+The project used the following layout:
+
+- ETL Pipeline
+- ML Pipeline
+- Flask Web App
+
+**Future Considerations:**
+
+- Due to time constraints and hardware limitations, a more complex model wasn't tested or constructed. In the future it would be great to expand the parameter list while using GridSearchCV and try several different classifiers. XGBoost would be an ideal candidate.
+
+- Research for GridSearchCV also provided alternatives for GridSeachCV, itself. Among the list were RandomizedSearchCV and BayesSearch.
+
+- It should be mentioned that a significant portion of messages actually weren't sorted into any of the 36 categories. This may initially feel like an error to train a model using these type of data points, however they are actually significant in the fact they are irrelevant. If a model is trained on only relevant messages, it will place a false priority on a irrelevant messages.
+
+Ultimately, this project will benefit the community. In the event of a future disaster, millions of communications will be sent out, and response organizations will be at their full capacity. A model like this will help guide these organizations where to best use their resources.

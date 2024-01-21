@@ -5,4 +5,18 @@ date: "2022-11-21"
 categories: [python, medium, analysis, exploratory, jupyter, numpy, pandas, matplotlib, sklearn]
 ---
 
-Emergency Calls
+Analysis of Seattle Police Department call center data.
+
+<a href="https://github.com/clickityKlein/Blog_Post_Emergency_Calls">GitHub Repository</a>
+
+<a href="https://medium.com/@carlj.klein/emergency-call-placed-priority-pending-3c59e3c7ba42">Medium Article</a>
+
+
+With such a massive amount of well-maintained information available, this provided an opportunity to dive into what goes on when a police assistance call is placed. Specifically, we looked at:
+
+- What times were the majority of the calls placed? Are there any surges by day of the month, or month of the year?
+- Do the amount of calls change by Precinct, Sector or Beat?
+- Does the Priority of calls change by Precinct, Sector or Beat?
+- The Computer Aided Dispatch (CAD) system assigns Priority. Can we create a model which accurately predicts Priority?
+
+*Please see the GitHub repo and Medium articles for complete findings.*

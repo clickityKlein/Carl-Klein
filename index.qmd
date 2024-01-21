@@ -12,9 +12,6 @@ about:
     href: https://www.linkedin.com/in/carl-klein/
   - icon: envelope
     href: mailto:carlj.klein@gmail.com
-format:
-  html:
-    email-obfuscation: javascript
 ---
 
 Welcome to my website! When I'm not in the mountains, I'm fine tuning my data science skills.
@@ -23,4 +20,4 @@ I'm currently pursuing my master's degree in data science (MSDS) at [CU Boulder]
 
 Prior to this, I worked as a Benefits Data Analyst in the insurance industry. Initially, I had actuarial aspirations, inspired by my time at the [University of Washington](https://www.washington.edu/), where I studied mathematics (Bachelor of Arts in Mathematics, minor in Applied Mathematics).
 
-Small scale automation projects during my time as a Benefits Data Analyst helped me start to develop a programming repertoire. I kept building the programming toolkit, eventually merging this with my passion for mathematics, ultimately leading me down a data science pathway.
+Small scale automation projects during my time as a Benefits Data Analyst helped me start to develop a programming repertoire. I kept building the programming toolkit, eventually merging this with my passion for mathematics, and ultimately leading me down the data science pathway.

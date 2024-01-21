@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -222,9 +222,6 @@ ul.task-list li input[type="checkbox"] {
          <option value="listing-title-sort" data-direction="asc">
           Title
         </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -242,12 +239,12 @@ ul.task-list li input[type="checkbox"] {
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 <th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+Description
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="python,r,r-studio,analysis,exploratory,quarto,dashboard,shiny,plotly,hypothesis-testing,machine-learning,statistics,latex,youtube" data-listing-date-sort="1702882800000" data-listing-file-modified-sort="1705726124511" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Bias in Facial Classification ML Models" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="python,r,r-studio,analysis,exploratory,quarto,dashboard,shiny,plotly,hypothesis-testing,machine-learning,statistics,latex,youtube" data-listing-date-sort="1702882800000" data-listing-file-modified-sort="1705800006794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="117" data-listing-title-sort="Bias in Facial Classification ML Models" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Dec 18, 2023</span>
 </td>
@@ -255,10 +252,10 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/bias-in-ml-models/index.html" class="title listing-title">Bias in Facial Classification ML Models</a>
 </td>
 <td>
-<span class="listing-author">Carl Klein, Patrick Cooper, Bhavana Jonnalagadda, Piya (Leo) Ngamkam, Dhairya Veera</span>
+<span class="listing-description">An exploratory and statistical analysis on the biases prevalent in facial recognition machine learning models.</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="r,r-studio,tidyverse,exploratory,analysis,lubridate,usmap,gridextra,zoo" data-listing-date-sort="1692770400000" data-listing-file-modified-sort="1705726502408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="COVID Analysis" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-categories="r,r-studio,tidyverse,exploratory,analysis,lubridate,usmap,gridextra,zoo" data-listing-date-sort="1692770400000" data-listing-file-modified-sort="1705800879721" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77" data-listing-title-sort="COVID Analysis" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Aug 23, 2023</span>
 </td>
@@ -266,10 +263,10 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/covid-analysis/index.html" class="title listing-title">COVID Analysis</a>
 </td>
 <td>
-<span class="listing-author">Carl Klein</span>
+<span class="listing-description">Analyzed COVID-19 from several sources using R.</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="python,medium,etl-pipeline,analysis,exploratory,numpy,pandas,matplotlib,nltk,re,sklearn" data-listing-date-sort="1690696800000" data-listing-file-modified-sort="1705726549947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Natural Language Processing with Articles" data-listing-filename-sort="index.qmd">
+<tr data-index="2" data-categories="python,medium,etl-pipeline,analysis,exploratory,numpy,pandas,matplotlib,nltk,re,sklearn" data-listing-date-sort="1690696800000" data-listing-file-modified-sort="1705800209085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269" data-listing-title-sort="Natural Language Processing with Articles" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Jul 30, 2023</span>
 </td>
@@ -277,10 +274,10 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/nlp-articles/index.html" class="title listing-title">Natural Language Processing with Articles</a>
 </td>
 <td>
-<span class="listing-author">Carl Klein</span>
+<span class="listing-description">Created an NLP model which attempted to predict the publisher given a news article.</span>
 </td>
 </tr>
-<tr data-index="3" data-categories="python,etl-pipeline,machine-learning-pipeline,flask,joblib,nltk,numpy,pandas,plotly,sklearn,sqlalchemy,sql,dashboard" data-listing-date-sort="1682575200000" data-listing-file-modified-sort="1705726513142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Disaster Response Dashboard" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-categories="python,etl-pipeline,machine-learning-pipeline,flask,joblib,nltk,numpy,pandas,plotly,sklearn,sqlalchemy,sql,dashboard" data-listing-date-sort="1682575200000" data-listing-file-modified-sort="1705800367182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276" data-listing-title-sort="Disaster Response Dashboard" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Apr 27, 2023</span>
 </td>
@@ -288,10 +285,10 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/disaster-response-dash/index.html" class="title listing-title">Disaster Response Dashboard</a>
 </td>
 <td>
-<span class="listing-author">Carl Klein</span>
+<span class="listing-description">Created a pipeline which classifies messages from various sources during an emergency. Additional step taken in deploying to Flask web application.</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="python,flask,numpy,pandas,plotly,dashboard,deploy,heroku" data-listing-date-sort="1679983200000" data-listing-file-modified-sort="1705726444534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Basic Data Dashboard" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-categories="python,flask,numpy,pandas,plotly,dashboard,deploy,heroku" data-listing-date-sort="1679983200000" data-listing-file-modified-sort="1705801083897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-title-sort="Basic Data Dashboard" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Mar 28, 2023</span>
 </td>
@@ -299,10 +296,10 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/basic-data-dash/index.html" class="title listing-title">Basic Data Dashboard</a>
 </td>
 <td>
-<span class="listing-author">Carl Klein</span>
+<span class="listing-description">Template and instructions for deploying a dashboard which can be uploaded to a webpage using basic HTML, Flask, Plotly, and Bootstrap</span>
 </td>
 </tr>
-<tr data-index="5" data-categories="python,application,object-oriented-programming,numpy,pandas,random,sympy" data-listing-date-sort="1673593200000" data-listing-file-modified-sort="1705726537026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Basic Flashcards Application" data-listing-filename-sort="index.qmd">
+<tr data-index="5" data-categories="python,application,object-oriented-programming,numpy,pandas,random,sympy" data-listing-date-sort="1673593200000" data-listing-file-modified-sort="1705801192702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99" data-listing-title-sort="Basic Flashcards Application" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Jan 13, 2023</span>
 </td>
@@ -310,10 +307,10 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/flashcards-basic/index.html" class="title listing-title">Basic Flashcards Application</a>
 </td>
 <td>
-<span class="listing-author">Carl </span>
+<span class="listing-description">Application which allows users to build and combine decks of virtual flashcards. Supports mathematical notation and symbols.</span>
 </td>
 </tr>
-<tr data-index="6" data-categories="python,medium,analysis,exploratory,jupyter,numpy,pandas,matplotlib,sklearn" data-listing-date-sort="1669014000000" data-listing-file-modified-sort="1705726526795" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="Emergency Calls" data-listing-filename-sort="index.qmd">
+<tr data-index="6" data-categories="python,medium,analysis,exploratory,jupyter,numpy,pandas,matplotlib,sklearn" data-listing-date-sort="1669014000000" data-listing-file-modified-sort="1705801298940" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113" data-listing-title-sort="Emergency Calls" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Nov 21, 2022</span>
 </td>
@@ -321,10 +318,10 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/emergency-calls/index.html" class="title listing-title">Emergency Calls</a>
 </td>
 <td>
-<span class="listing-author">Carl Klein</span>
+<span class="listing-description">Analysis of Seattle Police Department call center data.</span>
 </td>
 </tr>
-<tr data-index="7" data-categories="python" data-listing-date-sort="1655359200000" data-listing-file-modified-sort="1705726560429" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Rudimentary Python Projects" data-listing-filename-sort="index.qmd">
+<tr data-index="7" data-categories="python" data-listing-date-sort="1655359200000" data-listing-file-modified-sort="1705801458276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Rudimentary Python Projects" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Jun 16, 2022</span>
 </td>
@@ -332,10 +329,10 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/rud-python-projects/index.html" class="title listing-title">Rudimentary Python Projects</a>
 </td>
 <td>
-<span class="listing-author">Carl Klein</span>
+<span class="listing-description">As I was just starting to practice coding in python. Additionally, added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.</span>
 </td>
 </tr>
-<tr data-index="8" data-categories="excel,vba,automation,widgets" data-listing-date-sort="1650780000000" data-listing-file-modified-sort="1705726572486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="VBA Projects" data-listing-filename-sort="index.qmd">
+<tr data-index="8" data-categories="excel,vba,automation,widgets" data-listing-date-sort="1650780000000" data-listing-file-modified-sort="1705801636391" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="140" data-listing-title-sort="VBA Projects" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Apr 24, 2022</span>
 </td>
@@ -343,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/all/vba-projects/index.html" class="title listing-title">VBA Projects</a>
 </td>
 <td>
-<span class="listing-author">Carl Klein</span>
+<span class="listing-description">My inital projects were small scale automation projects while I was a Benefits Data Analyst. These were VBA based, as the majority of my team’s work was in Excel.…</span>
 </td>
 </tr>
 </tbody>
