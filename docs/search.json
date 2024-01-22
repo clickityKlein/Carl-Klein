@@ -46,7 +46,7 @@
     "href": "projects.html",
     "title": "Project Archive",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nDec 18, 2023\n\n\nBias in Facial Classification ML Models\n\n\n\n\n\n\n\nAug 23, 2023\n\n\nCOVID Analysis\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nNatural Language Processing with Articles\n\n\n\n\n\n\n\nApr 27, 2023\n\n\nDisaster Response Dashboard\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nBasic Data Dashboard\n\n\n\n\n\n\n\nJan 13, 2023\n\n\nBasic Flashcards Application\n\n\n\n\n\n\n\nNov 21, 2022\n\n\nEmergency Calls\n\n\n\n\n\n\n\nJun 16, 2022\n\n\nRudimentary Python Projects\n\n\n\n\n\n\n\nApr 24, 2022\n\n\nVBA Projects\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nDec 18, 2023\n\n\nBias in Facial Classification ML Models\n\n\n\n\n\n\n\nAug 23, 2023\n\n\nCOVID-19 Analysis\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nNatural Language Processing with Articles\n\n\n\n\n\n\n\nApr 27, 2023\n\n\nDisaster Response Dashboard\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nBasic Data Dashboard\n\n\n\n\n\n\n\nJan 13, 2023\n\n\nBasic Flashcards Application\n\n\n\n\n\n\n\nNov 21, 2022\n\n\nEmergency Calls\n\n\n\n\n\n\n\nJun 16, 2022\n\n\nRudimentary Python Projects\n\n\n\n\n\n\n\nApr 24, 2022\n\n\nVBA Projects\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/featured/disaster-response-dash/index.html",
@@ -60,7 +60,7 @@
     "href": "posts/all/vba-projects/index.html",
     "title": "VBA Projects",
     "section": "",
-    "text": "My inital projects were small scale automation projects while I was a Benefits Data Analyst. These were VBA based, as the majority of my team’s work was in Excel. Additionally, these were added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.\nThese models were built in a generalized scope prior to implementing at my workplace.\nGitHub Repository - Large Claimant Automation Tool\nGitHub Repository - Master Database Tool\nThese were truly the projects that started me down the road to data science, so I believe they are a staple of my portfolio. I was attempting to implement and automate both simple and complex tasks for an analyst team, but had the limitation of staying within Excel. Naturally, I taught myself VBA and begin to program solutions for my team. I was very proud of these!"
+    "text": "My initial data science projects were small scale VBA based automation projects.\nWhile I was a Benefits Data Analyst, the majority of my team’s work was in Excel, so I created tools using VBA to automate several processes. Additionally, these were added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.\nThese models were built in a generalized scope prior to implementing at my workplace.\nGitHub Repository - Large Claimant Automation Tool\nGitHub Repository - Master Database Tool\nThese were truly the projects that started me down the road to data science, so I believe they are a staple of my portfolio. I was attempting to implement and automate both simple and complex tasks for an analyst team, but had the limitation of staying within Excel. Naturally, I taught myself VBA and begin to program solutions for my team. I was very proud of these!"
   },
   {
     "objectID": "posts/all/nlp-articles/index.html",
@@ -79,7 +79,7 @@
   {
     "objectID": "posts/all/covid-analysis/index.html",
     "href": "posts/all/covid-analysis/index.html",
-    "title": "COVID Analysis",
+    "title": "COVID-19 Analysis",
     "section": "",
     "text": "Analyzed COVID-19 from several sources using R.\nGitHub Repository\nThe goal of this project was to manipulate COVID-19 and population data across multiple sources to solve desired inquiries. Local data from the United States as well as global data is analyzed.\nAmong the findings, there was one such visual I found compelling. The visual is of California broken down into counties showing a correlation of areas with higher concentrations of cases having higher concentrations of death.\n\n\n\nCalifornia Cases and Deaths"
   },
