@@ -5,7 +5,9 @@ date: "2022-04-24"
 categories: [excel, vba, automation, widgets]
 ---
 
-My inital projects were small scale automation projects while I was a Benefits Data Analyst. These were VBA based, as the majority of my team's work was in Excel. Additionally, these were added to my portfolio prior to a fuller understanding of Git and writing "proper" READMEs.
+My initial data science projects were small scale VBA based automation projects.
+
+While I was a Benefits Data Analyst, the majority of my team's work was in Excel, so I created tools using VBA to automate several processes. Additionally, these were added to my portfolio prior to a fuller understanding of Git and writing "proper" READMEs.
 
 *These models were built in a generalized scope prior to implementing at my workplace.*
 

@@ -206,7 +206,7 @@ I've taken several courses featuring SQL, and have used SQL and SQLAlchemy as th
 
 ::: {.column width="80%"}
 <details>
-Because I was tasked with primarily using Excel in my first position after my undergraduate degree, there were some disadvantages that aren't inherent in tools such as Python. To combat this, I learned VBA and implemented several macros and even completed entire projects aimed at increasing efficiency and reducing errors.
+I was tasked with primarily using Excel in my first position after my undergraduate degree, there were some disadvantages that aren't inherent in tools such as Python. To combat this, I learned VBA and implemented several macros and even completed entire projects aimed at increasing efficiency and reducing errors.
 
 Although not as user friendly as a language like Python, using VBA shined a light on how processes surrounding data pipelines could look, and ultimately gave me a nudge to continue down the data science pathway.
 

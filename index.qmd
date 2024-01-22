@@ -16,7 +16,7 @@ about:
 
 Welcome to my website! When I'm not in the mountains, I'm fine tuning my data science skills.
 
-I'm currently pursuing my master's degree in data science (MSDS) at [CU Boulder]("https://www.colorado.edu/").
+I'm currently pursuing my master's degree in data science (MSDS) at [CU Boulder](https://www.colorado.edu/).
 
 Prior to this, I worked as a Benefits Data Analyst in the insurance industry. Initially, I had actuarial aspirations, inspired by my time at the [University of Washington](https://www.washington.edu/), where I studied mathematics (Bachelor of Arts in Mathematics, minor in Applied Mathematics).
 
