@@ -4,6 +4,32 @@ title: "Virtual Resume"
 
 # Career Experience
 
+## Pattern Energy Group
+
+::: columns
+::: {.column width="65%"}
+
+### Data Analyst Intern
+
+#### Summer 2024
+
+During the summer of 2024, I interned at Pattern Energy Group, where I was able to utilize what I had been learning throughout the first year of my master's degree.
+
+**Key Tasks and Accomplishments:**
+
+- Accessed and navigated petabytes of data through a Linux server.
+- Created robust analytical tools which can use a wide variety of inputs to model different renewable energy scenarios.
+- Used network analysis and predictive modeling to illustrate how an energy grid can optimize transfers between counties. 
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+![](images/pattern-energy-group.jpg)
+:::
+:::
+
 ## Parker, Smith & Feek
 
 ::: columns
@@ -55,6 +81,8 @@ Small scale automation projects during my time as a Benefits Data Analyst helped
 
 **Key Accolades**
 
+- [Snowbound Analytics](/posts/all/snowbound/index.qmd)
+- [The Brewery Project](/posts/all/brewery-project/index.qmd)
 - [Bias in Facial Classification Machine Learning Models](/posts/all/bias-in-ml-models/index.qmd)
 :::
 :::

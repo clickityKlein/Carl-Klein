@@ -1,0 +1,15 @@
+---
+title: "Baseball Analytics"
+author: "Carl Klein"
+date: "2024-05-01"
+categories: [r, analysis, exploratory, quarto, regression, generalized-linear-models, multiple-linear-regression]
+image: baseball-analytics.png
+---
+
+This project 
+
+<a href="https://github.com/clickityklein/baseball-analtyics">GitHub Repository</a>
+
+A detailed statistical analysis which features proving the **Pythagorean Formula of Baseball**. This project consists of multiple types of regression and subsequent analysis.
+
+See the link above for the complete analysis and documentation.

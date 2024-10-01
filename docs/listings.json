@@ -2,9 +2,10 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/posts/all/snowbound/index.html",
+      "/posts/all/baseball-analytics/index.html",
       "/posts/all/brewery-project/index.html",
       "/posts/all/bias-in-ml-models/index.html",
-      "/posts/all/snowbound/index.html",
       "/posts/all/covid-analysis/index.html",
       "/posts/all/nlp-articles/index.html",
       "/posts/all/disaster-response-dash/index.html",
@@ -18,8 +19,8 @@
   {
     "listing": "/featured_projects.html",
     "items": [
-      "/posts/featured/brewery-project/index.html",
-      "/posts/featured/snowbound/index.html"
+      "/posts/featured/snowbound/index.html",
+      "/posts/featured/brewery-project/index.html"
     ]
   }
 ]
