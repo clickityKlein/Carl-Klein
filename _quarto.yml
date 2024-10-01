@@ -8,7 +8,7 @@ website:
   page-footer:
     center: |
       <span class="container"><strong>[Contact Carl Klein](mailto:carlj.klein@gmail.com){target="_blank"}</strong></span>
-    background: "#2C3E50"
+    background: primary
       
   navbar:
     left:
@@ -18,10 +18,14 @@ website:
         href: featured_projects.qmd
       - text: "Project Archive"
         href: projects.qmd
-      - text: "Virtual Resume"
-        href: virtual-resume.qmd
-      - text: "Downloadable Resume"
-        href: resume.qmd
+      - text: "Guides"
+        href: guides.qmd
+      - text: "Resume"
+        menu:
+        - text: "Virtual Resume"
+          href: virtual-resume.qmd
+        - text: "Downloadable Resume"
+          href: resume.qmd
         
     right:
       - icon: github
@@ -50,7 +54,7 @@ format:
     code-link: true
     code-fold: show
     code-tools: false
-    code-block-border-left: "#2C3E50"
+    code-block-border-left: primary
     toc: true
     
 

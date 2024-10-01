@@ -1,0 +1,17 @@
+---
+title: "The Brewery Project"
+author: "Carl Klein, Jessica Groven, Julia Gallwitz"
+date: "2024-05-01"
+categories: [python, analysis, exploratory, quarto, plotly, machine-learning, data-mining]
+image: hypertuned_models.png
+---
+
+Utilized data mining techniques to prepare, clean, and apply data scraped and aggregated from multiple sources to ultimately create models important for brewers and brewery customers to make informed decisions.
+
+<a href="https://github.com/The-Brewery-Project/The-Brewery-Project">GitHub Repository</a>
+
+<a href="https://the-brewery-project.github.io/The-Brewery-Project/">Project Website</a>
+
+My team, consisting of three members, performed a full data science life cycle process to help multiple facets of the brewery community make informed decisions. After scraping data and using APIs, this data was cleaned, prepared and then modeled. Several different ideas were tested through exploratory data analysis and the modeling. The modeling consisted of hypertuning parameters.
+
+See the links above for the complete analysis and documentation.

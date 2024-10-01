@@ -1,0 +1,13 @@
+---
+title: "Snowbound Analytics"
+author: "Carl Klein"
+date: "2023-12-18"
+categories: [python, analysis, bootstrap, flask, javascript, exploratory, quarto, plotly, machine-learning, data-mining, api, html, spatial-analysis, temporal-analysis]
+image: snowbound.png
+---
+
+Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional aspect featuring spatiotemporal analysis is also featured.
+
+<a href="https://github.com/clickityKlein/snowbound">GitHub Repository</a>
+
+<a href="https://snowbound-0fqq.onrender.com/">Project Website</a>

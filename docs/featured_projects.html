@@ -135,13 +135,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Project Archive</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./virtual-resume.html"> 
-<span class="menu-text">Virtual Resume</span></a>
+    <a class="nav-link" href="./guides.html"> 
+<span class="menu-text">Guides</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resume.html"> 
-<span class="menu-text">Downloadable Resume</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resume" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resume</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resume">    
+        <li>
+    <a class="dropdown-item" href="./virtual-resume.html">
+ <span class="dropdown-text">Virtual Resume</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./resume.html">
+ <span class="dropdown-text">Downloadable Resume</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
@@ -188,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dashboard">dashboard <span class="quarto-category-count">(2)</span></div><div class="category" data-category="etl-pipeline">etl-pipeline <span class="quarto-category-count">(2)</span></div><div class="category" data-category="exploratory">exploratory <span class="quarto-category-count">(2)</span></div><div class="category" data-category="flask">flask <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hypothesis-testing">hypothesis-testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="joblib">joblib <span class="quarto-category-count">(1)</span></div><div class="category" data-category="latex">latex <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine-learning">machine-learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine-learning-pipeline">machine-learning-pipeline <span class="quarto-category-count">(1)</span></div><div class="category" data-category="matplotlib">matplotlib <span class="quarto-category-count">(1)</span></div><div class="category" data-category="medium">medium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nltk">nltk <span class="quarto-category-count">(2)</span></div><div class="category" data-category="numpy">numpy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="pandas">pandas <span class="quarto-category-count">(2)</span></div><div class="category" data-category="plotly">plotly <span class="quarto-category-count">(2)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(3)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(1)</span></div><div class="category" data-category="r-studio">r-studio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="re">re <span class="quarto-category-count">(1)</span></div><div class="category" data-category="shiny">shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sklearn">sklearn <span class="quarto-category-count">(2)</span></div><div class="category" data-category="sql">sql <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sqlalchemy">sqlalchemy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="statistics">statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="youtube">youtube <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="api">api <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bootstrap">bootstrap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data-mining">data-mining <span class="quarto-category-count">(2)</span></div><div class="category" data-category="exploratory">exploratory <span class="quarto-category-count">(2)</span></div><div class="category" data-category="flask">flask <span class="quarto-category-count">(1)</span></div><div class="category" data-category="html">html <span class="quarto-category-count">(1)</span></div><div class="category" data-category="javascript">javascript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine-learning">machine-learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="plotly">plotly <span class="quarto-category-count">(2)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="spatial-analysis">spatial-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="temporal-analysis">temporal-analysis <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -217,28 +228,22 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="python,r,r-studio,analysis,exploratory,quarto,dashboard,shiny,plotly,hypothesis-testing,machine-learning,statistics,latex,youtube" data-listing-date-sort="1702882800000" data-listing-file-modified-sort="1705800037042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="117">
+<div class="quarto-post image-right" data-index="0" data-categories="python,analysis,exploratory,quarto,plotly,machine-learning,data-mining" data-listing-date-sort="1714543200000" data-listing-file-modified-sort="1727741310053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
 <div class="thumbnail">
-<p><a href="./posts/featured/bias-in-ml-models/index.html" class="no-external"></a></p><a href="./posts/featured/bias-in-ml-models/index.html" class="no-external">
-<p><img src="./posts/featured/bias-in-ml-models/bias-in-ml-models.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/featured/bias-in-ml-models/index.html" class="no-external"></a></p>
+<p><a href="./posts/featured/brewery-project/index.html" class="no-external"></a></p><a href="./posts/featured/brewery-project/index.html" class="no-external">
+<p><img src="./posts/featured/brewery-project/hypertuned_models.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/featured/brewery-project/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/featured/bias-in-ml-models/index.html" class="no-external">Bias in Facial Classification ML Models</a>
+<a href="./posts/featured/brewery-project/index.html" class="no-external">The Brewery Project</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/featured/bias-in-ml-models/index.html" class="no-external"></a>
+<a href="./posts/featured/brewery-project/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
 python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
-r
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r-studio'); return false;">
-r-studio
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
 analysis
@@ -249,171 +254,96 @@ exploratory
 <div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
 quarto
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('dashboard'); return false;">
-dashboard
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('shiny'); return false;">
-shiny
-</div>
 <div class="listing-category" onclick="window.quartoListingCategory('plotly'); return false;">
 plotly
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('hypothesis-testing'); return false;">
-hypothesis-testing
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('machine-learning'); return false;">
 machine-learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('statistics'); return false;">
-statistics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('latex'); return false;">
-latex
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('youtube'); return false;">
-youtube
+<div class="listing-category" onclick="window.quartoListingCategory('data-mining'); return false;">
+data-mining
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/featured/bias-in-ml-models/index.html" class="no-external">An exploratory and statistical analysis on the biases prevalent in facial recognition machine learning models.</a>
+<a href="./posts/featured/brewery-project/index.html" class="no-external">Utilized data mining techniques to prepare, clean, and apply data scraped and aggregated from multiple sources to ultimately create models important for brewers and brewery…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/featured/bias-in-ml-models/index.html" class="no-external">
+<a href="./posts/featured/brewery-project/index.html" class="no-external">
 <div class="listing-date">
-Dec 18, 2023
+May 1, 2024
 </div>
 <div class="listing-author">
-Carl Klein, Patrick Cooper, Bhavana Jonnalagadda, Piya (Leo) Ngamkam, Dhairya Veera
+Carl Klein, Jessica Groven, Julia Gallwitz
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="python,medium,etl-pipeline,analysis,exploratory,numpy,pandas,matplotlib,nltk,re,sklearn" data-listing-date-sort="1690696800000" data-listing-file-modified-sort="1705800222619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
+<div class="quarto-post image-right" data-index="1" data-categories="python,analysis,bootstrap,flask,javascript,exploratory,quarto,plotly,machine-learning,data-mining,api,html,spatial-analysis,temporal-analysis" data-listing-date-sort="1702882800000" data-listing-file-modified-sort="1727741742347" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
 <div class="thumbnail">
-<p><a href="./posts/featured/nlp-articles/index.html" class="no-external"></a></p><a href="./posts/featured/nlp-articles/index.html" class="no-external">
-<p><img src="./posts/featured/nlp-articles/nlp-articles.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/featured/nlp-articles/index.html" class="no-external"></a></p>
+<p><a href="./posts/featured/snowbound/index.html" class="no-external"></a></p><a href="./posts/featured/snowbound/index.html" class="no-external">
+<p><img src="./posts/featured/snowbound/snowbound.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/featured/snowbound/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/featured/nlp-articles/index.html" class="no-external">Natural Language Processing with Articles</a>
+<a href="./posts/featured/snowbound/index.html" class="no-external">Snowbound Analytics</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/featured/nlp-articles/index.html" class="no-external"></a>
+<a href="./posts/featured/snowbound/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
 python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('medium'); return false;">
-medium
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('etl-pipeline'); return false;">
-etl-pipeline
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
 analysis
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('exploratory'); return false;">
-exploratory
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('numpy'); return false;">
-numpy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('pandas'); return false;">
-pandas
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('matplotlib'); return false;">
-matplotlib
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('nltk'); return false;">
-nltk
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('re'); return false;">
-re
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('sklearn'); return false;">
-sklearn
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/featured/nlp-articles/index.html" class="no-external">Created an NLP model which attempted to predict the publisher given a news article.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/featured/nlp-articles/index.html" class="no-external">
-<div class="listing-date">
-Jul 30, 2023
-</div>
-<div class="listing-author">
-Carl Klein
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="python,etl-pipeline,machine-learning-pipeline,flask,joblib,nltk,numpy,pandas,plotly,sklearn,sqlalchemy,sql,dashboard" data-listing-date-sort="1682575200000" data-listing-file-modified-sort="1705800391952" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
-<div class="thumbnail">
-<p><a href="./posts/featured/disaster-response-dash/index.html" class="no-external"></a></p><a href="./posts/featured/disaster-response-dash/index.html" class="no-external">
-<p><img src="./posts/featured/disaster-response-dash/disaster-response.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/featured/disaster-response-dash/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/featured/disaster-response-dash/index.html" class="no-external">Disaster Response Dashboard</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/featured/disaster-response-dash/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('etl-pipeline'); return false;">
-etl-pipeline
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine-learning-pipeline'); return false;">
-machine-learning-pipeline
+<div class="listing-category" onclick="window.quartoListingCategory('bootstrap'); return false;">
+bootstrap
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('flask'); return false;">
 flask
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('joblib'); return false;">
-joblib
+<div class="listing-category" onclick="window.quartoListingCategory('javascript'); return false;">
+javascript
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('nltk'); return false;">
-nltk
+<div class="listing-category" onclick="window.quartoListingCategory('exploratory'); return false;">
+exploratory
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('numpy'); return false;">
-numpy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('pandas'); return false;">
-pandas
+<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+quarto
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('plotly'); return false;">
 plotly
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('sklearn'); return false;">
-sklearn
+<div class="listing-category" onclick="window.quartoListingCategory('machine-learning'); return false;">
+machine-learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('sqlalchemy'); return false;">
-sqlalchemy
+<div class="listing-category" onclick="window.quartoListingCategory('data-mining'); return false;">
+data-mining
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('sql'); return false;">
-sql
+<div class="listing-category" onclick="window.quartoListingCategory('api'); return false;">
+api
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('dashboard'); return false;">
-dashboard
+<div class="listing-category" onclick="window.quartoListingCategory('html'); return false;">
+html
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('spatial-analysis'); return false;">
+spatial-analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('temporal-analysis'); return false;">
+temporal-analysis
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/featured/disaster-response-dash/index.html" class="no-external">Created a pipeline which classifies messages from various sources during an emergency. Additional step taken in deploying to Flask web application.</a>
+<a href="./posts/featured/snowbound/index.html" class="no-external">Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./posts/featured/disaster-response-dash/index.html" class="no-external">
+<a href="./posts/featured/snowbound/index.html" class="no-external">
 <div class="listing-date">
-Apr 27, 2023
+Dec 18, 2023
 </div>
 <div class="listing-author">
 Carl Klein

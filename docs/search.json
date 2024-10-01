@@ -46,21 +46,21 @@
     "href": "projects.html",
     "title": "Project Archive",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nDec 18, 2023\n\n\nBias in Facial Classification ML Models\n\n\n\n\n\n\n\nAug 23, 2023\n\n\nCOVID-19 Analysis\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nNatural Language Processing with Articles\n\n\n\n\n\n\n\nApr 27, 2023\n\n\nDisaster Response Dashboard\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nBasic Data Dashboard\n\n\n\n\n\n\n\nJan 13, 2023\n\n\nBasic Flashcards Application\n\n\n\n\n\n\n\nNov 21, 2022\n\n\nEmergency Calls\n\n\n\n\n\n\n\nJun 16, 2022\n\n\nRudimentary Python Projects\n\n\n\n\n\n\n\nApr 24, 2022\n\n\nVBA Projects\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nMay 1, 2024\n\n\nThe Brewery Project\n\n\n\n\n\n\n\nDec 18, 2023\n\n\nBias in Facial Classification ML Models\n\n\n\n\n\n\n\nDec 18, 2023\n\n\nSnowbound Analytics\n\n\n\n\n\n\n\nAug 23, 2023\n\n\nCOVID-19 Analysis\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nNatural Language Processing with Articles\n\n\n\n\n\n\n\nApr 27, 2023\n\n\nDisaster Response Dashboard\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nBasic Data Dashboard\n\n\n\n\n\n\n\nJan 13, 2023\n\n\nBasic Flashcards Application\n\n\n\n\n\n\n\nNov 21, 2022\n\n\nEmergency Calls\n\n\n\n\n\n\n\nJun 16, 2022\n\n\nRudimentary Python Projects\n\n\n\n\n\n\n\nApr 24, 2022\n\n\nVBA Projects\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/featured/disaster-response-dash/index.html",
-    "href": "posts/featured/disaster-response-dash/index.html",
-    "title": "Disaster Response Dashboard",
+    "objectID": "posts/featured/brewery-project/index.html",
+    "href": "posts/featured/brewery-project/index.html",
+    "title": "The Brewery Project",
     "section": "",
-    "text": "Created a pipeline which classifies messages from various sources during an emergency. Additional step taken in deploying to Flask web application.\nGitHub Repository\nThe Disaster Response Pipeline classifies messages from various sources during an emergency. Rather than searching through potentially important key words, a model has been trained to categorize each message.\nIn the midst of an emergency, such as a natural disaster, thousands of messages are being sent. It’s important to be able to categorize these messages to optimize efforts and resources.\nBy utilizing natural language processing in a pipeline, a model was built to do just this.\nThe project used the following layout:\n\nETL Pipeline\nML Pipeline\nFlask Web App\n\nFuture Considerations:\n\nDue to time constraints and hardware limitations, a more complex model wasn’t tested or constructed. In the future it would be great to expand the parameter list while using GridSearchCV and try several different classifiers. XGBoost would be an ideal candidate.\nResearch for GridSearchCV also provided alternatives for GridSeachCV, itself. Among the list were RandomizedSearchCV and BayesSearch.\nIt should be mentioned that a significant portion of messages actually weren’t sorted into any of the 36 categories. This may initially feel like an error to train a model using these type of data points, however they are actually significant in the fact they are irrelevant. If a model is trained on only relevant messages, it will place a false priority on a irrelevant messages.\n\nUltimately, this project will benefit the community. In the event of a future disaster, millions of communications will be sent out, and response organizations will be at their full capacity. A model like this will help guide these organizations where to best use their resources."
+    "text": "Utilized data mining techniques to prepare, clean, and apply data scraped and aggregated from multiple sources to ultimately create models important for brewers and brewery customers to make informed decisions.\nGitHub Repository\nProject Website\nMy team, consisting of three members, performed a full data science life cycle process to help multiple facets of the brewery community make informed decisions. After scraping data and using APIs, this data was cleaned, prepared and then modeled. Several different ideas were tested through exploratory data analysis and the modeling. The modeling consisted of hypertuning parameters.\nSee the links above for the complete analysis and documentation."
   },
   {
-    "objectID": "posts/all/vba-projects/index.html",
-    "href": "posts/all/vba-projects/index.html",
-    "title": "VBA Projects",
+    "objectID": "posts/all/snowbound/index.html",
+    "href": "posts/all/snowbound/index.html",
+    "title": "Snowbound Analytics",
     "section": "",
-    "text": "My initial data science projects were small scale VBA based automation projects.\nWhile I was a Benefits Data Analyst, the majority of my team’s work was in Excel, so I created tools using VBA to automate several processes. Additionally, these were added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.\nThese models were built in a generalized scope prior to implementing at my workplace.\nGitHub Repository - Large Claimant Automation Tool\nGitHub Repository - Master Database Tool\nThese were truly the projects that started me down the road to data science, so I believe they are a staple of my portfolio. I was attempting to implement and automate both simple and complex tasks for an analyst team, but had the limitation of staying within Excel. Naturally, I taught myself VBA and begin to program solutions for my team. I was very proud of these!"
+    "text": "Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional aspect featuring spatiotemporal analysis is also featured.\nGitHub Repository\nProject Website"
   },
   {
     "objectID": "posts/all/nlp-articles/index.html",
@@ -84,18 +84,25 @@
     "text": "Analyzed COVID-19 from several sources using R.\nGitHub Repository\nThe goal of this project was to manipulate COVID-19 and population data across multiple sources to solve desired inquiries. Local data from the United States as well as global data is analyzed.\nAmong the findings, there was one such visual I found compelling. The visual is of California broken down into counties showing a correlation of areas with higher concentrations of cases having higher concentrations of death.\n\n\n\nCalifornia Cases and Deaths"
   },
   {
-    "objectID": "posts/all/basic-data-dash/index.html",
-    "href": "posts/all/basic-data-dash/index.html",
-    "title": "Basic Data Dashboard",
+    "objectID": "posts/all/bias-in-ml-models/index.html",
+    "href": "posts/all/bias-in-ml-models/index.html",
+    "title": "Bias in Facial Classification ML Models",
     "section": "",
-    "text": "Template and instructions for deploying a dashboard which can be uploaded to a webpage using basic HTML, Flask, Plotly, and Bootstrap\nGitHub Repository\nThis template lays the foundation for creating a dashboard that can be uploaded to a webpage using basic HTML, Flask, Plotly, and Bootstrap. In the link above is a highly detailed guide in building and deploying a web application through Heroku. It covers Ubunto (linux) and Windows (GitBash) approaches."
+    "text": "An exploratory and statistical analysis on the biases prevalent in facial recognition machine learning models.\nGitHub Repository\nProject Website\nYouTube Video\nMy team, consisting of six members, performed a litany of analyses to test if there was bias in facial recognition machine learning models. We tested the DeepFace and FairFace algorithms against a large and diverse dataset. Performing both the classic performance measurements such as accuracy and f1-score, and categorical hypothesis testing (proportionality testing), we were able to find some instances of bias. Ironically, perhaps our biggest discovery was that categorial hypoothesis testing (proportionality testing) was not a strong indicator to identify issues and errors in machine learning models.\nSee the links above for the complete analysis and documentation."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Carl Klein",
+    "section": "",
+    "text": "Welcome to my website! When I’m not in the mountains, I’m fine tuning my data science skills.\nI decided to pursue my master’s degree in data science (MSDS) at CU Boulder to apply my passions for mathematics and programming in an interdisciplinary setting which is known for exposure in the Earth and natural sciences, among other fascinating and complex subjects.\nPrior to this, I worked as a Benefits Data Analyst in the insurance industry. Initially, I had actuarial aspirations, inspired by my time at the University of Washington, where I studied mathematics (Bachelor of Arts in Mathematics, minor in Applied Mathematics).\nSmall scale automation projects during my time as a Benefits Data Analyst helped me start to develop a programming repertoire. I kept building the programming toolkit, eventually merging this with my passion for mathematics, and ultimately leading me down the data science pathway.\nDuring my time at CU Boulder, I’ve excelled at applying statistical theory, data mining, and machine learning algorithms; all of which can be viewed throughout my showcased projects and GitHub repositories.\nFeel free to peruse my projects and GitHub repositories. Thanks for visiting, and please don’t hesitate to reach out with any questions!"
   },
   {
     "objectID": "featured_projects.html",
     "href": "featured_projects.html",
     "title": "Featured Projects",
     "section": "",
-    "text": "Bias in Facial Classification ML Models\n\n\n\n\n\n\npython\n\n\nr\n\n\nr-studio\n\n\nanalysis\n\n\nexploratory\n\n\nquarto\n\n\ndashboard\n\n\nshiny\n\n\nplotly\n\n\nhypothesis-testing\n\n\nmachine-learning\n\n\nstatistics\n\n\nlatex\n\n\nyoutube\n\n\n\n\n\n\n\n\n\nDec 18, 2023\n\n\nCarl Klein, Patrick Cooper, Bhavana Jonnalagadda, Piya (Leo) Ngamkam, Dhairya Veera\n\n\n\n\n\n\n\n\n\n\n\n\nNatural Language Processing with Articles\n\n\n\n\n\n\npython\n\n\nmedium\n\n\netl-pipeline\n\n\nanalysis\n\n\nexploratory\n\n\nnumpy\n\n\npandas\n\n\nmatplotlib\n\n\nnltk\n\n\nre\n\n\nsklearn\n\n\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nCarl Klein\n\n\n\n\n\n\n\n\n\n\n\n\nDisaster Response Dashboard\n\n\n\n\n\n\npython\n\n\netl-pipeline\n\n\nmachine-learning-pipeline\n\n\nflask\n\n\njoblib\n\n\nnltk\n\n\nnumpy\n\n\npandas\n\n\nplotly\n\n\nsklearn\n\n\nsqlalchemy\n\n\nsql\n\n\ndashboard\n\n\n\n\n\n\n\n\n\nApr 27, 2023\n\n\nCarl Klein\n\n\n\n\n\n\nNo matching items"
+    "text": "The Brewery Project\n\n\n\n\n\n\npython\n\n\nanalysis\n\n\nexploratory\n\n\nquarto\n\n\nplotly\n\n\nmachine-learning\n\n\ndata-mining\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nCarl Klein, Jessica Groven, Julia Gallwitz\n\n\n\n\n\n\n\n\n\n\n\n\nSnowbound Analytics\n\n\n\n\n\n\npython\n\n\nanalysis\n\n\nbootstrap\n\n\nflask\n\n\njavascript\n\n\nexploratory\n\n\nquarto\n\n\nplotly\n\n\nmachine-learning\n\n\ndata-mining\n\n\napi\n\n\nhtml\n\n\nspatial-analysis\n\n\ntemporal-analysis\n\n\n\n\n\n\n\n\n\nDec 18, 2023\n\n\nCarl Klein\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -105,18 +112,25 @@
     "text": "The About Page"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Carl Klein",
+    "objectID": "guides.html",
+    "href": "guides.html",
+    "title": "Guides",
     "section": "",
-    "text": "Welcome to my website! When I’m not in the mountains, I’m fine tuning my data science skills.\nI decided to pursue my master’s degree in data science (MSDS) at CU Boulder to eventually have a career that combines two of my passions; the preservation and science of earth and the fascinating study of big data.\nPrior to this, I worked as a Benefits Data Analyst in the insurance industry. Initially, I had actuarial aspirations, inspired by my time at the University of Washington, where I studied mathematics (Bachelor of Arts in Mathematics, minor in Applied Mathematics).\nSmall scale automation projects during my time as a Benefits Data Analyst helped me start to develop a programming repertoire. I kept building the programming toolkit, eventually merging this with my passion for mathematics, and ultimately leading me down the data science pathway.\nI hope you will enjoy reviewing my projects in Data Science and Math. Thank you for your time and please contact me with any questions!"
+    "text": "Featured on this page are links to guides and packages I’ve created across several foundation topics in data science.\n\nData Mining\nThe basics of data mining with Python code examples.\n\n\nStatistics\nBasic to Advanced statistical topics catered towards data science applications with R code examples.\n\n\nSpatial Analytics\nThe basics of spatial analytics with research notes.\n\n\nFlask Blueprints\nA module which can create a Flask web application projects. Contains options for:\n\nbootstrap styling\ndatabase implementation\ndatabase models\n\n\n\nSQL\nThe basics of SQL."
   },
   {
-    "objectID": "posts/all/bias-in-ml-models/index.html",
-    "href": "posts/all/bias-in-ml-models/index.html",
-    "title": "Bias in Facial Classification ML Models",
+    "objectID": "posts/all/basic-data-dash/index.html",
+    "href": "posts/all/basic-data-dash/index.html",
+    "title": "Basic Data Dashboard",
     "section": "",
-    "text": "An exploratory and statistical analysis on the biases prevalent in facial recognition machine learning models.\nGitHub Repository\nProject Website\nYouTube Video\nMy team, consisting of six members, performed a litany of analyses to test if there was bias in facial recognition machine learning models. We tested the DeepFace and FairFace algorithms against a large and diverse dataset. Performing both the classic performance measurements such as accuracy and f1-score, and categorical hypothesis testing (proportionality testing), we were able to find some instances of bias. Ironically, perhaps our biggest discovery was that categorial hypoothesis testing (proportionality testing) was not a strong indicator to identify issues and errors in machine learning models.\nSee the links above for the complete analysis and documentation."
+    "text": "Template and instructions for deploying a dashboard which can be uploaded to a webpage using basic HTML, Flask, Plotly, and Bootstrap\nGitHub Repository\nThis template lays the foundation for creating a dashboard that can be uploaded to a webpage using basic HTML, Flask, Plotly, and Bootstrap. In the link above is a highly detailed guide in building and deploying a web application through Heroku. It covers Ubunto (linux) and Windows (GitBash) approaches."
+  },
+  {
+    "objectID": "posts/all/brewery-project/index.html",
+    "href": "posts/all/brewery-project/index.html",
+    "title": "The Brewery Project",
+    "section": "",
+    "text": "Utilized data mining techniques to prepare, clean, and apply data scraped and aggregated from multiple sources to ultimately create models important for brewers and brewery customers to make informed decisions.\nGitHub Repository\nProject Website\nMy team, consisting of three members, performed a full data science life cycle process to help multiple facets of the brewery community make informed decisions. After scraping data and using APIs, this data was cleaned, prepared and then modeled. Several different ideas were tested through exploratory data analysis and the modeling. The modeling consisted of hypertuning parameters.\nSee the links above for the complete analysis and documentation."
   },
   {
     "objectID": "posts/all/disaster-response-dash/index.html",
@@ -140,18 +154,18 @@
     "text": "As I was just starting to practice coding in python. Additionally, added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.\nGitHub Repository - Expense Tracker Tool\nGitHub Repository - Linear Algebra Tools\nSome of the first functions written and files imported via Python were within these files. Normally, not something to showcase within a porfolio, but it’s a good reminder of progress."
   },
   {
-    "objectID": "posts/featured/bias-in-ml-models/index.html",
-    "href": "posts/featured/bias-in-ml-models/index.html",
-    "title": "Bias in Facial Classification ML Models",
+    "objectID": "posts/all/vba-projects/index.html",
+    "href": "posts/all/vba-projects/index.html",
+    "title": "VBA Projects",
     "section": "",
-    "text": "An exploratory and statistical analysis on the biases prevalent in facial recognition machine learning models.\nGitHub Repository\nProject Website\nYouTube Video\nMy team, consisting of six members, performed a litany of analyses to test if there was bias in facial recognition machine learning models. We tested the DeepFace and FairFace algorithms against a large and diverse dataset. Performing both the classic performance measurements such as accuracy and f1-score, and categorical hypothesis testing (proportionality testing), we were able to find some instances of bias. Ironically, perhaps our biggest discovery was that categorial hypoothesis testing (proportionality testing) was not a strong indicator to identify issues and errors in machine learning models.\nSee the links above for the complete analysis and documentation."
+    "text": "My initial data science projects were small scale VBA based automation projects.\nWhile I was a Benefits Data Analyst, the majority of my team’s work was in Excel, so I created tools using VBA to automate several processes. Additionally, these were added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.\nThese models were built in a generalized scope prior to implementing at my workplace.\nGitHub Repository - Large Claimant Automation Tool\nGitHub Repository - Master Database Tool\nThese were truly the projects that started me down the road to data science, so I believe they are a staple of my portfolio. I was attempting to implement and automate both simple and complex tasks for an analyst team, but had the limitation of staying within Excel. Naturally, I taught myself VBA and begin to program solutions for my team. I was very proud of these!"
   },
   {
-    "objectID": "posts/featured/nlp-articles/index.html",
-    "href": "posts/featured/nlp-articles/index.html",
-    "title": "Natural Language Processing with Articles",
+    "objectID": "posts/featured/snowbound/index.html",
+    "href": "posts/featured/snowbound/index.html",
+    "title": "Snowbound Analytics",
     "section": "",
-    "text": "Created an NLP model which attempted to predict the publisher given a news article.\nGitHub Repository\nMedium Article\nThe goal of this project was to attempt to create an NLP model which could correctly identify the publisher given an article.\nAfter cleaning and exploring the data via statistical and visual methods, attempt to create a classification model which will accurately predict publisher if given a news article.\nWithout higher processing power, and a more equipt dataset, this will likely not be very accurate. Additionally, this only accounts for a small portion of the thousands of publishers and news networks, which means any article from outside the publishers in this dataset will result in an incorrect prediction.\nOverall, we were able to successfully clean and analyze a dataset surrounding our goal. After testing several models and parameters, there was a “best” model built. The f1-scores and accuracy were not ideal, however, the framework to continue to improve this model has been created!\nWhen it comes to potential improvements of this analysis and model, at the top of the list is obviously creating more accurate predictions. A starting point would be to perform a more robust parameter search. Given the proper hardware, it would be great to test the entire dataset (~150,000 articles) across not only each of the classifiers, but a grid search of parameters for each of the classifiers as well.\nUnfortunately, the instance of testing just the 3 max_depth parameters for the Random Forest Classifier on less than 10,000 rows of data took about 2 hours on the machine it was performed on. Maybe another machine is better equipt to take on the challenge!"
+    "text": "Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional aspect featuring spatiotemporal analysis is also featured.\nGitHub Repository\nProject Website"
   },
   {
     "objectID": "resume.html",

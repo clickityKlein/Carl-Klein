@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Carl Klein">
-<meta name="dcterms.date" content="2023-07-30">
 
-<title>Carl Klein - Natural Language Processing with Articles</title>
+<title>Carl Klein - Guides</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../images/MountRainier.jpg" rel="icon" type="image/jpeg">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/MountRainier.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -81,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Carl Klein</span>
     </a>
   </div>
@@ -92,25 +90,36 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../featured_projects.html"> 
+    <a class="nav-link" href="./featured_projects.html"> 
 <span class="menu-text">Featured Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../projects.html"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Project Archive</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../virtual-resume.html"> 
-<span class="menu-text">Virtual Resume</span></a>
+    <a class="nav-link active" href="./guides.html" aria-current="page"> 
+<span class="menu-text">Guides</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../resume.html"> 
-<span class="menu-text">Downloadable Resume</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resume" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resume</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resume">    
+        <li>
+    <a class="dropdown-item" href="./virtual-resume.html">
+ <span class="dropdown-text">Virtual Resume</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./resume.html">
+ <span class="dropdown-text">Downloadable Resume</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
@@ -156,46 +165,31 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-mining" id="toc-data-mining" class="nav-link active" data-scroll-target="#data-mining">Data Mining</a></li>
+  <li><a href="#statistics" id="toc-statistics" class="nav-link" data-scroll-target="#statistics">Statistics</a></li>
+  <li><a href="#spatial-analytics" id="toc-spatial-analytics" class="nav-link" data-scroll-target="#spatial-analytics">Spatial Analytics</a></li>
+  <li><a href="#flask-blueprints" id="toc-flask-blueprints" class="nav-link" data-scroll-target="#flask-blueprints">Flask Blueprints</a></li>
+  <li><a href="#sql" id="toc-sql" class="nav-link" data-scroll-target="#sql">SQL</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Natural Language Processing with Articles</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">python</div>
-    <div class="quarto-category">medium</div>
-    <div class="quarto-category">etl-pipeline</div>
-    <div class="quarto-category">analysis</div>
-    <div class="quarto-category">exploratory</div>
-    <div class="quarto-category">numpy</div>
-    <div class="quarto-category">pandas</div>
-    <div class="quarto-category">matplotlib</div>
-    <div class="quarto-category">nltk</div>
-    <div class="quarto-category">re</div>
-    <div class="quarto-category">sklearn</div>
-  </div>
-  </div>
+<h1 class="title">Guides</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Carl Klein </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 30, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -205,17 +199,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Created an NLP model which attempted to predict the publisher given a news article.</p>
-<p><a href="https://github.com/clickityKlein/Articles-NLP">GitHub Repository</a></p>
-<p><a href="https://medium.com/@carlj.klein/publisher-prediction-natural-language-processing-nlp-with-news-articles-5e5dffe8c316">Medium Article</a></p>
-<p>The goal of this project was to attempt to create an NLP model which could correctly identify the publisher given an article.</p>
-<p>After cleaning and exploring the data via statistical and visual methods, attempt to create a classification model which will accurately predict publisher if given a news article.</p>
-<p>Without higher processing power, and a more equipt dataset, this will likely not be very accurate. Additionally, this only accounts for a small portion of the thousands of publishers and news networks, which means any article from outside the publishers in this dataset will result in an incorrect prediction.</p>
-<p>Overall, we were able to successfully clean and analyze a dataset surrounding our goal. After testing several models and parameters, there was a “best” model built. The f1-scores and accuracy were not ideal, however, the framework to continue to improve this model has been created!</p>
-<p>When it comes to potential improvements of this analysis and model, at the top of the list is obviously creating more accurate predictions. A starting point would be to perform a more robust parameter search. Given the proper hardware, it would be great to test the entire dataset (~150,000 articles) across not only each of the classifiers, but a grid search of parameters for each of the classifiers as well.</p>
-<p>Unfortunately, the instance of testing just the 3 max_depth parameters for the Random Forest Classifier on less than 10,000 rows of data took about 2 hours on the machine it was performed on. Maybe another machine is better equipt to take on the challenge!</p>
+<p>Featured on this page are links to guides and packages I’ve created across several foundation topics in data science.</p>
+<section id="data-mining" class="level1">
+<h1><a href="https://clickityklein.github.io/Data-Mining/">Data Mining</a></h1>
+<p>The basics of data mining with Python code examples.</p>
+</section>
+<section id="statistics" class="level1">
+<h1><a href="https://clickityklein.github.io/Statistics/">Statistics</a></h1>
+<p>Basic to Advanced statistical topics catered towards data science applications with R code examples.</p>
+</section>
+<section id="spatial-analytics" class="level1">
+<h1><a href="https://clickityklein.github.io/Spatial-Analytics/">Spatial Analytics</a></h1>
+<p>The basics of spatial analytics with research notes.</p>
+</section>
+<section id="flask-blueprints" class="level1">
+<h1><a href="https://github.com/clickityKlein/Flask-Blueprints">Flask Blueprints</a></h1>
+<p>A module which can create a Flask web application projects. Contains options for:</p>
+<ul>
+<li>bootstrap styling</li>
+<li>database implementation</li>
+<li>database models</li>
+</ul>
+</section>
+<section id="sql" class="level1">
+<h1><a href="https://clickityklein.github.io/SQL/">SQL</a></h1>
+<p>The basics of SQL.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

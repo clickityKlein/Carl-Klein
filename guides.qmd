@@ -1,0 +1,29 @@
+---
+title: "Guides"
+---
+
+Featured on this page are links to guides and packages I've created across several foundation topics in data science.
+
+# [Data Mining](https://clickityklein.github.io/Data-Mining/)
+
+The basics of data mining with Python code examples.
+
+# [Statistics](https://clickityklein.github.io/Statistics/)
+
+Basic to Advanced statistical topics catered towards data science applications with R code examples.
+
+# [Spatial Analytics](https://clickityklein.github.io/Spatial-Analytics/)
+
+The basics of spatial analytics with research notes.
+
+# [Flask Blueprints](https://github.com/clickityKlein/Flask-Blueprints)
+
+A module which can create a Flask web application projects. Contains options for:
+
+- bootstrap styling
+- database implementation
+- database models
+
+# [SQL](https://clickityklein.github.io/SQL/) 
+
+The basics of SQL.
