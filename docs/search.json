@@ -53,7 +53,14 @@
     "href": "projects.html",
     "title": "Project Archive",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nOct 1, 2024\n\n\nSnowbound Analytics\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nBaseball Analytics\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nThe Brewery Project\n\n\n\n\n\n\n\nDec 18, 2023\n\n\nBias in Facial Classification ML Models\n\n\n\n\n\n\n\nAug 23, 2023\n\n\nCOVID-19 Analysis\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nNatural Language Processing with Articles\n\n\n\n\n\n\n\nApr 27, 2023\n\n\nDisaster Response Dashboard\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nBasic Data Dashboard\n\n\n\n\n\n\n\nJan 13, 2023\n\n\nBasic Flashcards Application\n\n\n\n\n\n\n\nNov 21, 2022\n\n\nEmergency Calls\n\n\n\n\n\n\n\nJun 16, 2022\n\n\nRudimentary Python Projects\n\n\n\n\n\n\n\nApr 24, 2022\n\n\nVBA Projects\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nMay 1, 2025\n\n\nInterview Application\n\n\n\n\n\n\n\nMay 1, 2025\n\n\nStudent Loan Forgivess - Text Mining\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nSnowbound Analytics\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nBaseball Analytics\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nThe Brewery Project\n\n\n\n\n\n\n\nDec 18, 2023\n\n\nBias in Facial Classification ML Models\n\n\n\n\n\n\n\nAug 23, 2023\n\n\nCOVID-19 Analysis\n\n\n\n\n\n\n\nJul 30, 2023\n\n\nNatural Language Processing with Articles\n\n\n\n\n\n\n\nApr 27, 2023\n\n\nDisaster Response Dashboard\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nBasic Data Dashboard\n\n\n\n\n\n\n\nJan 13, 2023\n\n\nBasic Flashcards Application\n\n\n\n\n\n\n\nNov 21, 2022\n\n\nEmergency Calls\n\n\n\n\n\n\n\nJun 16, 2022\n\n\nRudimentary Python Projects\n\n\n\n\n\n\n\nApr 24, 2022\n\n\nVBA Projects\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/featured/snowbound/index.html",
+    "href": "posts/featured/snowbound/index.html",
+    "title": "Snowbound Analytics",
+    "section": "",
+    "text": "Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional aspect featuring spatiotemporal analysis is also featured.\nGitHub Repository\nProject Website"
   },
   {
     "objectID": "posts/featured/brewery-project/index.html",
@@ -63,18 +70,25 @@
     "text": "Utilized data mining techniques to prepare, clean, and apply data scraped and aggregated from multiple sources to ultimately create models important for brewers and brewery customers to make informed decisions.\nGitHub Repository\nProject Website\nMy team, consisting of three members, performed a full data science life cycle process to help multiple facets of the brewery community make informed decisions. After scraping data and using APIs, this data was cleaned, prepared and then modeled. Several different ideas were tested through exploratory data analysis and the modeling. The modeling consisted of hypertuning parameters.\nSee the links above for the complete analysis and documentation."
   },
   {
-    "objectID": "posts/all/snowbound/index.html",
-    "href": "posts/all/snowbound/index.html",
-    "title": "Snowbound Analytics",
+    "objectID": "posts/all/student-loan-forgiveness/index.html",
+    "href": "posts/all/student-loan-forgiveness/index.html",
+    "title": "Student Loan Forgivess - Text Mining",
     "section": "",
-    "text": "Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional aspect featuring spatiotemporal analysis is also featured.\nGitHub Repository\nProject Website"
+    "text": "This project analyzed sentiment on the topic of student loan forgiveness across news articles and Reddit posts.\nGitHub Repository\nProject Website\nThis project used text mining techniques from scraping, cleaning, and analysis to analyze sentiment on the topic. After an exploratory data analysis was performed, machine learning techniques were used to classify political bias given either a news article or an aggregation of Reddit posts. Specifically, machine learning models were trained on news articles and then extrapolated to predict political bias of Reddit authors. Additionally, a bespoke neural network was built from scratch during this project.\nSee the links above for the complete analysis and documentation."
   },
   {
-    "objectID": "posts/all/nlp-articles/index.html",
-    "href": "posts/all/nlp-articles/index.html",
-    "title": "Natural Language Processing with Articles",
+    "objectID": "posts/all/rud-python-projects/index.html",
+    "href": "posts/all/rud-python-projects/index.html",
+    "title": "Rudimentary Python Projects",
     "section": "",
-    "text": "Created an NLP model which attempted to predict the publisher given a news article.\nGitHub Repository\nMedium Article\nThe goal of this project was to attempt to create an NLP model which could correctly identify the publisher given an article.\nAfter cleaning and exploring the data via statistical and visual methods, attempt to create a classification model which will accurately predict publisher if given a news article.\nWithout higher processing power, and a more equipt dataset, this will likely not be very accurate. Additionally, this only accounts for a small portion of the thousands of publishers and news networks, which means any article from outside the publishers in this dataset will result in an incorrect prediction.\nOverall, we were able to successfully clean and analyze a dataset surrounding our goal. After testing several models and parameters, there was a “best” model built. The f1-scores and accuracy were not ideal, however, the framework to continue to improve this model has been created!\nWhen it comes to potential improvements of this analysis and model, at the top of the list is obviously creating more accurate predictions. A starting point would be to perform a more robust parameter search. Given the proper hardware, it would be great to test the entire dataset (~150,000 articles) across not only each of the classifiers, but a grid search of parameters for each of the classifiers as well.\nUnfortunately, the instance of testing just the 3 max_depth parameters for the Random Forest Classifier on less than 10,000 rows of data took about 2 hours on the machine it was performed on. Maybe another machine is better equipt to take on the challenge!"
+    "text": "As I was just starting to practice coding in python. Additionally, added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.\nGitHub Repository - Expense Tracker Tool\nGitHub Repository - Linear Algebra Tools\nSome of the first functions written and files imported via Python were within these files. Normally, not something to showcase within a porfolio, but it’s a good reminder of progress."
+  },
+  {
+    "objectID": "posts/all/interview-app/index.html",
+    "href": "posts/all/interview-app/index.html",
+    "title": "Interview Application",
+    "section": "",
+    "text": "This project was a team collaboration to build a web application with a cloud-based backend. The web application allows a user to create an account, populate a quiz with data science questions by topic and past quiz performances, and then view their personal progress comparatively with other members’ progress in the community.\nOur team used an Agile approach with weekly Minimum Viable Products (MVPs), where we would discuss progress and assign tasks based on our technical backgrounds and availability. There were three overarching themes we separated tasks into: data acquisition, cloud deployment (backend), and application deployment (frontend).\nMy role was mostly focused on the application, or frontend. Throughout the Agile process, I successively built and deployed a Flask application with version and environment control in mind. A first rendition featured a shell with mock data and illustrated the user experience along with data dashboards within it. Further renditions required collaboration and communication to fulfill our vision. Discussion surrounding both presentation and data structures were essential. Additionally, it was my duty to have this seamlessly connected to an AWS RDS PostgreSQL database. The data acquisition team member worked with the cloud team member to create pipelines to populate the questions, and then I worked with cloud team member to create database schemas and ensure proper connection to the database.\nUsing an Agile approach, communicating our progress and concerns, and diversifying the workload along with trust in team members created a synchronous environment where everyone was excelling in their portions ultimately making for a better final product.\nThe application is no longer live, but a video demonstration was created.\nVideo"
   },
   {
     "objectID": "posts/all/emergency-calls/index.html",
@@ -109,7 +123,7 @@
     "href": "guides.html",
     "title": "Guides",
     "section": "",
-    "text": "Featured on this page are links to guides and packages I’ve created across several foundation topics in data science.\n\nData Mining\nThe basics of data mining with Python code examples.\n\n\nStatistics\nBasic to Advanced statistical topics catered towards data science applications with R code examples.\n\n\nSpatial Analytics\nThe basics of spatial analytics with research notes.\n\n\nFlask Blueprints\nA module which can create a Flask web application projects. Contains options for:\n\nbootstrap styling\ndatabase implementation\ndatabase models\n\n\n\nSQL\nThe basics of SQL."
+    "text": "Featured on this page are links to guides and packages I’ve created across several foundation topics in data science.\n\nData Mining\nThe basics of data mining with Python code examples.\n\n\nStatistics\nBasic to Advanced statistical topics catered towards data science applications with R code examples.\n\n\nSpatial Analytics\nThe basics of spatial analytics with research notes.\n\n\nFlask Blueprints\nA module which can create a Flask web application projects. Contains options for:\n\nbootstrap styling\ndatabase implementation\ndatabase models\n\n\n\nSQL - Under Construction\nThe basics of SQL."
   },
   {
     "objectID": "about.html",
@@ -123,7 +137,7 @@
     "href": "featured_projects.html",
     "title": "Featured Projects",
     "section": "",
-    "text": "Snowbound Analytics\n\n\n\n\n\n\npython\n\n\nanalysis\n\n\nbootstrap\n\n\nflask\n\n\njavascript\n\n\nexploratory\n\n\nquarto\n\n\nplotly\n\n\nmachine-learning\n\n\ndata-mining\n\n\napi\n\n\nhtml\n\n\nspatial-analysis\n\n\ntemporal-analysis\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nCarl Klein\n\n\n\n\n\n\n\n\n\n\n\n\nThe Brewery Project\n\n\n\n\n\n\npython\n\n\nanalysis\n\n\nexploratory\n\n\nquarto\n\n\nplotly\n\n\nmachine-learning\n\n\ndata-mining\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nCarl Klein, Jessica Groven, Julia Gallwitz\n\n\n\n\n\n\nNo matching items"
+    "text": "Interview Application\n\n\n\n\n\n\npython\n\n\ngithub\n\n\nflask\n\n\ncss\n\n\nhtml\n\n\nweb-scraping\n\n\napi\n\n\nversion-control\n\n\ncloud\n\n\ntrello\n\n\naws\n\n\nsql\n\n\npgadmin\n\n\ndeployment\n\n\n\n\n\n\n\n\n\nMay 1, 2025\n\n\nCarl Klein, Julia Gallwitz, Aishwarya Puranik, Ima Mervin, Anuj Hundia\n\n\n\n\n\n\n\n\n\n\n\n\nStudent Loan Forgivess - Text Mining\n\n\n\n\n\n\npython\n\n\nanalysis\n\n\nexploratory\n\n\nquarto\n\n\nplotly\n\n\nmachine-learning\n\n\ndata-mining\n\n\ntext-mining\n\n\napi\n\n\nr\n\n\n\n\n\n\n\n\n\nMay 1, 2025\n\n\nCarl Klein\n\n\n\n\n\n\n\n\n\n\n\n\nSnowbound Analytics\n\n\n\n\n\n\npython\n\n\nanalysis\n\n\nbootstrap\n\n\nflask\n\n\njavascript\n\n\nexploratory\n\n\nquarto\n\n\nplotly\n\n\nmachine-learning\n\n\ndata-mining\n\n\napi\n\n\nhtml\n\n\nspatial-analysis\n\n\ntemporal-analysis\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nCarl Klein\n\n\n\n\n\n\n\n\n\n\n\n\nThe Brewery Project\n\n\n\n\n\n\npython\n\n\nanalysis\n\n\nexploratory\n\n\nquarto\n\n\nplotly\n\n\nmachine-learning\n\n\ndata-mining\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nCarl Klein, Jessica Groven, Julia Gallwitz\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -161,11 +175,18 @@
     "text": "Application which allows users to build and combine decks of virtual flashcards. Supports mathematical notation and symbols.\nGitHub Repository\nActually, one of my first completed object oriented programming projects.\nThis project allows a user to create flashcards and decks of flashcards. It is meant to be a virtual replacement to physical flashcards, and features abilities such as deck combination and shuffling.\nIt was imperative to include the SymPy library, as this will personally be used heavily for mathematical concepts. On another personal note, further motivation for developing this into some sort of application was to swap mindless scrolling with learning during downtime."
   },
   {
-    "objectID": "posts/all/rud-python-projects/index.html",
-    "href": "posts/all/rud-python-projects/index.html",
-    "title": "Rudimentary Python Projects",
+    "objectID": "posts/all/nlp-articles/index.html",
+    "href": "posts/all/nlp-articles/index.html",
+    "title": "Natural Language Processing with Articles",
     "section": "",
-    "text": "As I was just starting to practice coding in python. Additionally, added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.\nGitHub Repository - Expense Tracker Tool\nGitHub Repository - Linear Algebra Tools\nSome of the first functions written and files imported via Python were within these files. Normally, not something to showcase within a porfolio, but it’s a good reminder of progress."
+    "text": "Created an NLP model which attempted to predict the publisher given a news article.\nGitHub Repository\nMedium Article\nThe goal of this project was to attempt to create an NLP model which could correctly identify the publisher given an article.\nAfter cleaning and exploring the data via statistical and visual methods, attempt to create a classification model which will accurately predict publisher if given a news article.\nWithout higher processing power, and a more equipt dataset, this will likely not be very accurate. Additionally, this only accounts for a small portion of the thousands of publishers and news networks, which means any article from outside the publishers in this dataset will result in an incorrect prediction.\nOverall, we were able to successfully clean and analyze a dataset surrounding our goal. After testing several models and parameters, there was a “best” model built. The f1-scores and accuracy were not ideal, however, the framework to continue to improve this model has been created!\nWhen it comes to potential improvements of this analysis and model, at the top of the list is obviously creating more accurate predictions. A starting point would be to perform a more robust parameter search. Given the proper hardware, it would be great to test the entire dataset (~150,000 articles) across not only each of the classifiers, but a grid search of parameters for each of the classifiers as well.\nUnfortunately, the instance of testing just the 3 max_depth parameters for the Random Forest Classifier on less than 10,000 rows of data took about 2 hours on the machine it was performed on. Maybe another machine is better equipt to take on the challenge!"
+  },
+  {
+    "objectID": "posts/all/snowbound/index.html",
+    "href": "posts/all/snowbound/index.html",
+    "title": "Snowbound Analytics",
+    "section": "",
+    "text": "Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional aspect featuring spatiotemporal analysis is also featured.\nGitHub Repository\nProject Website"
   },
   {
     "objectID": "posts/all/vba-projects/index.html",
@@ -175,11 +196,18 @@
     "text": "My initial data science projects were small scale VBA based automation projects.\nWhile I was a Benefits Data Analyst, the majority of my team’s work was in Excel, so I created tools using VBA to automate several processes. Additionally, these were added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.\nThese models were built in a generalized scope prior to implementing at my workplace.\nGitHub Repository - Large Claimant Automation Tool\nGitHub Repository - Master Database Tool\nThese were truly the projects that started me down the road to data science, so I believe they are a staple of my portfolio. I was attempting to implement and automate both simple and complex tasks for an analyst team, but had the limitation of staying within Excel. Naturally, I taught myself VBA and begin to program solutions for my team. I was very proud of these!"
   },
   {
-    "objectID": "posts/featured/snowbound/index.html",
-    "href": "posts/featured/snowbound/index.html",
-    "title": "Snowbound Analytics",
+    "objectID": "posts/featured/interview-app/index.html",
+    "href": "posts/featured/interview-app/index.html",
+    "title": "Interview Application",
     "section": "",
-    "text": "Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional aspect featuring spatiotemporal analysis is also featured.\nGitHub Repository\nProject Website"
+    "text": "This project was a team collaboration to build a web application with a cloud-based backend. The web application allows a user to create an account, populate a quiz with data science questions by topic and past quiz performances, and then view their personal progress comparatively with other members’ progress in the community.\nOur team used an Agile approach with weekly Minimum Viable Products (MVPs), where we would discuss progress and assign tasks based on our technical backgrounds and availability. There were three overarching themes we separated tasks into: data acquisition, cloud deployment (backend), and application deployment (frontend).\nMy role was mostly focused on the application, or frontend. Throughout the Agile process, I successively built and deployed a Flask application with version and environment control in mind. A first rendition featured a shell with mock data and illustrated the user experience along with data dashboards within it. Further renditions required collaboration and communication to fulfill our vision. Discussion surrounding both presentation and data structures were essential. Additionally, it was my duty to have this seamlessly connected to an AWS RDS PostgreSQL database. The data acquisition team member worked with the cloud team member to create pipelines to populate the questions, and then I worked with cloud team member to create database schemas and ensure proper connection to the database.\nUsing an Agile approach, communicating our progress and concerns, and diversifying the workload along with trust in team members created a synchronous environment where everyone was excelling in their portions ultimately making for a better final product.\nThe application is no longer live, but a video demonstration was created.\nVideo"
+  },
+  {
+    "objectID": "posts/featured/student-loan-forgiveness/index.html",
+    "href": "posts/featured/student-loan-forgiveness/index.html",
+    "title": "Student Loan Forgivess - Text Mining",
+    "section": "",
+    "text": "This project analyzed sentiment on the topic of student loan forgiveness across news articles and Reddit posts.\nGitHub Repository\nProject Website\nThis project used text mining techniques from scraping, cleaning, and analysis to analyze sentiment on the topic. After an exploratory data analysis was performed, machine learning techniques were used to classify political bias given either a news article or an aggregation of Reddit posts. Specifically, machine learning models were trained on news articles and then extrapolated to predict political bias of Reddit authors. Additionally, a bespoke neural network was built from scratch during this project.\nSee the links above for the complete analysis and documentation."
   },
   {
     "objectID": "resume.html",

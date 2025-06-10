@@ -1,0 +1,19 @@
+---
+title: "Interview Application"
+author: "Carl Klein, Julia Gallwitz, Aishwarya Puranik, Ima Mervin, Anuj Hundia"
+date: "2025-05-01"
+categories: [python, github, flask, css, html, web-scraping, api, version-control, cloud, trello, aws, sql, pgadmin, deployment]
+image: database_design.png
+---
+
+This project was a team collaboration to build a web application with a cloud-based backend. The web application allows a user to create an account, populate a quiz with data science questions by topic and past quiz performances, and then view their personal progress comparatively with other members' progress in the community.
+
+Our team used an Agile approach with weekly Minimum Viable Products (MVPs), where we would discuss progress and assign tasks based on our technical backgrounds and availability. There were three overarching themes we separated tasks into: data acquisition, cloud deployment (backend), and application deployment (frontend).
+
+My role was mostly focused on the application, or frontend. Throughout the Agile process, I successively built and deployed a Flask application with version and environment control in mind. A first rendition featured a shell with mock data and illustrated the user experience along with data dashboards within it. Further renditions required collaboration and communication to fulfill our vision. Discussion surrounding both presentation and data structures were essential. Additionally, it was my duty to have this seamlessly connected to an AWS RDS PostgreSQL database. The data acquisition team member worked with the cloud team member to create pipelines to populate the questions, and then I worked with cloud team member to create database schemas and ensure proper connection to the database.
+
+Using an Agile approach, communicating our progress and concerns, and diversifying the workload along with trust in team members created a synchronous environment where everyone was excelling in their portions ultimately making for a better final product.
+
+The application is no longer live, but a video demonstration was created.
+
+![](interview_tool_demo.mp4)

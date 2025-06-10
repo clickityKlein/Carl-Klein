@@ -1,0 +1,17 @@
+---
+title: "Student Loan Forgivess - Text Mining"
+author: "Carl Klein"
+date: "2025-05-01"
+categories: [python, analysis, exploratory, quarto, plotly, machine-learning, data-mining, text-mining, api, r]
+image: bespoke_results.png
+---
+
+This project analyzed sentiment on the topic of **student loan forgiveness** across news articles and Reddit posts.
+
+<a href="https://github.com/Student-Loan-Forgiveness/Student-Loan-Forgiveness">GitHub Repository</a>
+
+<a href="https://student-loan-forgiveness.github.io/Student-Loan-Forgiveness/">Project Website</a>
+
+This project used text mining techniques from scraping, cleaning, and analysis to analyze sentiment on the topic. After an exploratory data analysis was performed, machine learning techniques were used to classify political bias given either a news article or an aggregation of Reddit posts. Specifically, machine learning models were trained on news articles and then extrapolated to predict political bias of Reddit authors. Additionally, a bespoke neural network was built from scratch during this project.
+
+See the links above for the complete analysis and documentation.

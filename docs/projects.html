@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.525">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Carl Klein - Project Archive</title>
+<title>Project Archive – Carl Klein</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5f3c358ee78b9d0d8421e9158f524a34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,8 +99,35 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -117,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -139,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Guides</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resume" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resume" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Resume</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resume">    
@@ -156,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span>
@@ -188,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -199,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(7)</span></div><div class="category" data-category="api">api <span class="quarto-category-count">(1)</span></div><div class="category" data-category="application">application <span class="quarto-category-count">(1)</span></div><div class="category" data-category="automation">automation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bootstrap">bootstrap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dashboard">dashboard <span class="quarto-category-count">(3)</span></div><div class="category" data-category="data-mining">data-mining <span class="quarto-category-count">(2)</span></div><div class="category" data-category="deploy">deploy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="etl-pipeline">etl-pipeline <span class="quarto-category-count">(2)</span></div><div class="category" data-category="excel">excel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="exploratory">exploratory <span class="quarto-category-count">(7)</span></div><div class="category" data-category="flask">flask <span class="quarto-category-count">(3)</span></div><div class="category" data-category="generalized-linear-models">generalized-linear-models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gridextra">gridextra <span class="quarto-category-count">(1)</span></div><div class="category" data-category="heroku">heroku <span class="quarto-category-count">(1)</span></div><div class="category" data-category="html">html <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hypothesis-testing">hypothesis-testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="javascript">javascript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="joblib">joblib <span class="quarto-category-count">(1)</span></div><div class="category" data-category="jupyter">jupyter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="latex">latex <span class="quarto-category-count">(1)</span></div><div class="category" data-category="lubridate">lubridate <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine-learning">machine-learning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="machine-learning-pipeline">machine-learning-pipeline <span class="quarto-category-count">(1)</span></div><div class="category" data-category="matplotlib">matplotlib <span class="quarto-category-count">(2)</span></div><div class="category" data-category="medium">medium <span class="quarto-category-count">(2)</span></div><div class="category" data-category="multiple-linear-regression">multiple-linear-regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nltk">nltk <span class="quarto-category-count">(2)</span></div><div class="category" data-category="numpy">numpy <span class="quarto-category-count">(5)</span></div><div class="category" data-category="object-oriented-programming">object-oriented-programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pandas">pandas <span class="quarto-category-count">(5)</span></div><div class="category" data-category="plotly">plotly <span class="quarto-category-count">(5)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(9)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(4)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(3)</span></div><div class="category" data-category="r-studio">r-studio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="random">random <span class="quarto-category-count">(1)</span></div><div class="category" data-category="re">re <span class="quarto-category-count">(1)</span></div><div class="category" data-category="regression">regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="shiny">shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sklearn">sklearn <span class="quarto-category-count">(3)</span></div><div class="category" data-category="spatial-analysis">spatial-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sql">sql <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sqlalchemy">sqlalchemy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="statistics">statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sympy">sympy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="temporal-analysis">temporal-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tidyverse">tidyverse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="usmap">usmap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vba">vba <span class="quarto-category-count">(1)</span></div><div class="category" data-category="widgets">widgets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="youtube">youtube <span class="quarto-category-count">(1)</span></div><div class="category" data-category="zoo">zoo <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(8)</span></div><div class="category" data-category="YXBp">api <span class="quarto-category-count">(3)</span></div><div class="category" data-category="YXBwbGljYXRpb24=">application <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXV0b21hdGlvbg==">automation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXdz">aws <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ym9vdHN0cmFw">bootstrap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xvdWQ=">cloud <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3Nz">css <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGFzaGJvYXJk">dashboard <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZGF0YS1taW5pbmc=">data-mining <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZGVwbG95">deploy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGVwbG95bWVudA==">deployment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXRsLXBpcGVsaW5l">etl-pipeline <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZXhjZWw=">excel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXhwbG9yYXRvcnk=">exploratory <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Zmxhc2s=">flask <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Z2VuZXJhbGl6ZWQtbGluZWFyLW1vZGVscw==">generalized-linear-models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2l0aHVi">github <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3JpZGV4dHJh">gridextra <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGVyb2t1">heroku <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHRtbA==">html <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aHlwb3RoZXNpcy10ZXN0aW5n">hypothesis-testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="amF2YXNjcmlwdA==">javascript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="am9ibGli">joblib <span class="quarto-category-count">(1)</span></div><div class="category" data-category="anVweXRlcg==">jupyter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGF0ZXg=">latex <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bHVicmlkYXRl">lubridate <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZS1sZWFybmluZw==">machine-learning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bWFjaGluZS1sZWFybmluZy1waXBlbGluZQ==">machine-learning-pipeline <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWF0cGxvdGxpYg==">matplotlib <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWVkaXVt">medium <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bXVsdGlwbGUtbGluZWFyLXJlZ3Jlc3Npb24=">multiple-linear-regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmx0aw==">nltk <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bnVtcHk=">numpy <span class="quarto-category-count">(5)</span></div><div class="category" data-category="b2JqZWN0LW9yaWVudGVkLXByb2dyYW1taW5n">object-oriented-programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFuZGFz">pandas <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGdhZG1pbg==">pgadmin <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGxvdGx5">plotly <span class="quarto-category-count">(6)</span></div><div class="category" data-category="cHl0aG9u">python <span class="quarto-category-count">(11)</span></div><div class="category" data-category="cXVhcnRv">quarto <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cg==">r <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ci1zdHVkaW8=">r-studio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmFuZG9t">random <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmU=">re <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVncmVzc2lvbg==">regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2hpbnk=">shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2tsZWFybg==">sklearn <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3BhdGlhbC1hbmFseXNpcw==">spatial-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3Fs">sql <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3FsYWxjaGVteQ==">sqlalchemy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3RhdGlzdGljcw==">statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3ltcHk=">sympy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGVtcG9yYWwtYW5hbHlzaXM=">temporal-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGV4dC1taW5pbmc=">text-mining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGlkeXZlcnNl">tidyverse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJlbGxv">trello <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dXNtYXA=">usmap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmJh">vba <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmVyc2lvbi1jb250cm9s">version-control <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2ViLXNjcmFwaW5n">web-scraping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2lkZ2V0cw==">widgets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="eW91dHViZQ==">youtube <span class="quarto-category-count">(1)</span></div><div class="category" data-category="em9v">zoo <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -264,7 +291,29 @@ Description
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="python,analysis,bootstrap,flask,javascript,exploratory,quarto,plotly,machine-learning,data-mining,api,html,spatial-analysis,temporal-analysis" data-listing-date-sort="1727762400000" data-listing-file-modified-sort="1727741928911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34" data-listing-title-sort="Snowbound Analytics" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="cHl0aG9uJTJDZ2l0aHViJTJDZmxhc2slMkNjc3MlMkNodG1sJTJDd2ViLXNjcmFwaW5nJTJDYXBpJTJDdmVyc2lvbi1jb250cm9sJTJDY2xvdWQlMkN0cmVsbG8lMkNhd3MlMkNzcWwlMkNwZ2FkbWluJTJDZGVwbG95bWVudA==" data-listing-date-sort="1746082800000" data-listing-file-modified-sort="1749524328564" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263" data-listing-title-sort="Interview Application" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">May 1, 2025</span>
+</td>
+<td>
+<a href="./posts/all/interview-app/index.html" class="title listing-title">Interview Application</a>
+</td>
+<td>
+<span class="listing-description">This project was a team collaboration to build a web application with a cloud-based backend. The web application allows a user to create an account, populate a quiz with…</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="cHl0aG9uJTJDYW5hbHlzaXMlMkNleHBsb3JhdG9yeSUyQ3F1YXJ0byUyQ3Bsb3RseSUyQ21hY2hpbmUtbGVhcm5pbmclMkNkYXRhLW1pbmluZyUyQ3RleHQtbWluaW5nJTJDYXBpJTJDcg==" data-listing-date-sort="1746082800000" data-listing-file-modified-sort="1749256044704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104" data-listing-title-sort="Student Loan Forgivess - Text Mining" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">May 1, 2025</span>
+</td>
+<td>
+<a href="./posts/all/student-loan-forgiveness/index.html" class="title listing-title">Student Loan Forgivess - Text Mining</a>
+</td>
+<td>
+<span class="listing-description">This project analyzed sentiment on the topic of <strong>student loan forgiveness</strong> across news articles and Reddit posts.</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="cHl0aG9uJTJDYW5hbHlzaXMlMkNib290c3RyYXAlMkNmbGFzayUyQ2phdmFzY3JpcHQlMkNleHBsb3JhdG9yeSUyQ3F1YXJ0byUyQ3Bsb3RseSUyQ21hY2hpbmUtbGVhcm5pbmclMkNkYXRhLW1pbmluZyUyQ2FwaSUyQ2h0bWwlMkNzcGF0aWFsLWFuYWx5c2lzJTJDdGVtcG9yYWwtYW5hbHlzaXM=" data-listing-date-sort="1727766000000" data-listing-file-modified-sort="1727741928911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34" data-listing-title-sort="Snowbound Analytics" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Oct 1, 2024</span>
 </td>
@@ -275,7 +324,7 @@ Description
 <span class="listing-description">Applied the data science life cycle to data surrounding ski resorts; including weather, nearby businesses, and resort ratings across multiple parameters. An additional…</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="r,analysis,exploratory,quarto,regression,generalized-linear-models,multiple-linear-regression" data-listing-date-sort="1714543200000" data-listing-file-modified-sort="1727756363556" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36" data-listing-title-sort="Baseball Analytics" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-categories="ciUyQ2FuYWx5c2lzJTJDZXhwbG9yYXRvcnklMkNxdWFydG8lMkNyZWdyZXNzaW9uJTJDZ2VuZXJhbGl6ZWQtbGluZWFyLW1vZGVscyUyQ211bHRpcGxlLWxpbmVhci1yZWdyZXNzaW9u" data-listing-date-sort="1714546800000" data-listing-file-modified-sort="1727756363556" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36" data-listing-title-sort="Baseball Analytics" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">May 1, 2024</span>
 </td>
@@ -286,7 +335,7 @@ Description
 <span class="listing-description">This project</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="python,analysis,exploratory,quarto,plotly,machine-learning,data-mining" data-listing-date-sort="1714543200000" data-listing-file-modified-sort="1727741282038" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99" data-listing-title-sort="The Brewery Project" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-categories="cHl0aG9uJTJDYW5hbHlzaXMlMkNleHBsb3JhdG9yeSUyQ3F1YXJ0byUyQ3Bsb3RseSUyQ21hY2hpbmUtbGVhcm5pbmclMkNkYXRhLW1pbmluZw==" data-listing-date-sort="1714546800000" data-listing-file-modified-sort="1727741282038" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99" data-listing-title-sort="The Brewery Project" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">May 1, 2024</span>
 </td>
@@ -297,7 +346,7 @@ Description
 <span class="listing-description">Utilized data mining techniques to prepare, clean, and apply data scraped and aggregated from multiple sources to ultimately create models important for brewers and brewery…</span>
 </td>
 </tr>
-<tr data-index="3" data-categories="python,r,r-studio,analysis,exploratory,quarto,dashboard,shiny,plotly,hypothesis-testing,machine-learning,statistics,latex,youtube" data-listing-date-sort="1702882800000" data-listing-file-modified-sort="1705800006794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="117" data-listing-title-sort="Bias in Facial Classification ML Models" data-listing-filename-sort="index.qmd">
+<tr data-index="5" data-categories="cHl0aG9uJTJDciUyQ3Itc3R1ZGlvJTJDYW5hbHlzaXMlMkNleHBsb3JhdG9yeSUyQ3F1YXJ0byUyQ2Rhc2hib2FyZCUyQ3NoaW55JTJDcGxvdGx5JTJDaHlwb3RoZXNpcy10ZXN0aW5nJTJDbWFjaGluZS1sZWFybmluZyUyQ3N0YXRpc3RpY3MlMkNsYXRleCUyQ3lvdXR1YmU=" data-listing-date-sort="1702886400000" data-listing-file-modified-sort="1705800006794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="117" data-listing-title-sort="Bias in Facial Classification ML Models" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Dec 18, 2023</span>
 </td>
@@ -308,7 +357,7 @@ Description
 <span class="listing-description">An exploratory and statistical analysis on the biases prevalent in facial recognition machine learning models.</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="r,r-studio,tidyverse,exploratory,analysis,lubridate,usmap,gridextra,zoo" data-listing-date-sort="1692770400000" data-listing-file-modified-sort="1705898519424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77" data-listing-title-sort="COVID-19 Analysis" data-listing-filename-sort="index.qmd">
+<tr data-index="6" data-categories="ciUyQ3Itc3R1ZGlvJTJDdGlkeXZlcnNlJTJDZXhwbG9yYXRvcnklMkNhbmFseXNpcyUyQ2x1YnJpZGF0ZSUyQ3VzbWFwJTJDZ3JpZGV4dHJhJTJDem9v" data-listing-date-sort="1692774000000" data-listing-file-modified-sort="1705898519424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77" data-listing-title-sort="COVID-19 Analysis" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Aug 23, 2023</span>
 </td>
@@ -319,7 +368,7 @@ Description
 <span class="listing-description">Analyzed COVID-19 from several sources using R.</span>
 </td>
 </tr>
-<tr data-index="5" data-categories="python,medium,etl-pipeline,analysis,exploratory,numpy,pandas,matplotlib,nltk,re,sklearn" data-listing-date-sort="1690696800000" data-listing-file-modified-sort="1705800209085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269" data-listing-title-sort="Natural Language Processing with Articles" data-listing-filename-sort="index.qmd">
+<tr data-index="7" data-categories="cHl0aG9uJTJDbWVkaXVtJTJDZXRsLXBpcGVsaW5lJTJDYW5hbHlzaXMlMkNleHBsb3JhdG9yeSUyQ251bXB5JTJDcGFuZGFzJTJDbWF0cGxvdGxpYiUyQ25sdGslMkNyZSUyQ3NrbGVhcm4=" data-listing-date-sort="1690700400000" data-listing-file-modified-sort="1705800209085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269" data-listing-title-sort="Natural Language Processing with Articles" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Jul 30, 2023</span>
 </td>
@@ -330,7 +379,7 @@ Description
 <span class="listing-description">Created an NLP model which attempted to predict the publisher given a news article.</span>
 </td>
 </tr>
-<tr data-index="6" data-categories="python,etl-pipeline,machine-learning-pipeline,flask,joblib,nltk,numpy,pandas,plotly,sklearn,sqlalchemy,sql,dashboard" data-listing-date-sort="1682575200000" data-listing-file-modified-sort="1705800367182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276" data-listing-title-sort="Disaster Response Dashboard" data-listing-filename-sort="index.qmd">
+<tr data-index="8" data-categories="cHl0aG9uJTJDZXRsLXBpcGVsaW5lJTJDbWFjaGluZS1sZWFybmluZy1waXBlbGluZSUyQ2ZsYXNrJTJDam9ibGliJTJDbmx0ayUyQ251bXB5JTJDcGFuZGFzJTJDcGxvdGx5JTJDc2tsZWFybiUyQ3NxbGFsY2hlbXklMkNzcWwlMkNkYXNoYm9hcmQ=" data-listing-date-sort="1682578800000" data-listing-file-modified-sort="1705800367182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276" data-listing-title-sort="Disaster Response Dashboard" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Apr 27, 2023</span>
 </td>
@@ -341,7 +390,7 @@ Description
 <span class="listing-description">Created a pipeline which classifies messages from various sources during an emergency. Additional step taken in deploying to Flask web application.</span>
 </td>
 </tr>
-<tr data-index="7" data-categories="python,flask,numpy,pandas,plotly,dashboard,deploy,heroku" data-listing-date-sort="1679983200000" data-listing-file-modified-sort="1705801083897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-title-sort="Basic Data Dashboard" data-listing-filename-sort="index.qmd">
+<tr data-index="9" data-categories="cHl0aG9uJTJDZmxhc2slMkNudW1weSUyQ3BhbmRhcyUyQ3Bsb3RseSUyQ2Rhc2hib2FyZCUyQ2RlcGxveSUyQ2hlcm9rdQ==" data-listing-date-sort="1679986800000" data-listing-file-modified-sort="1705801083897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-title-sort="Basic Data Dashboard" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Mar 28, 2023</span>
 </td>
@@ -352,7 +401,7 @@ Description
 <span class="listing-description">Template and instructions for deploying a dashboard which can be uploaded to a webpage using basic HTML, Flask, Plotly, and Bootstrap</span>
 </td>
 </tr>
-<tr data-index="8" data-categories="python,application,object-oriented-programming,numpy,pandas,random,sympy" data-listing-date-sort="1673593200000" data-listing-file-modified-sort="1705801192702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99" data-listing-title-sort="Basic Flashcards Application" data-listing-filename-sort="index.qmd">
+<tr data-index="10" data-categories="cHl0aG9uJTJDYXBwbGljYXRpb24lMkNvYmplY3Qtb3JpZW50ZWQtcHJvZ3JhbW1pbmclMkNudW1weSUyQ3BhbmRhcyUyQ3JhbmRvbSUyQ3N5bXB5" data-listing-date-sort="1673596800000" data-listing-file-modified-sort="1705801192702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99" data-listing-title-sort="Basic Flashcards Application" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Jan 13, 2023</span>
 </td>
@@ -363,7 +412,7 @@ Description
 <span class="listing-description">Application which allows users to build and combine decks of virtual flashcards. Supports mathematical notation and symbols.</span>
 </td>
 </tr>
-<tr data-index="9" data-categories="python,medium,analysis,exploratory,jupyter,numpy,pandas,matplotlib,sklearn" data-listing-date-sort="1669014000000" data-listing-file-modified-sort="1705801298940" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113" data-listing-title-sort="Emergency Calls" data-listing-filename-sort="index.qmd">
+<tr data-index="11" data-categories="cHl0aG9uJTJDbWVkaXVtJTJDYW5hbHlzaXMlMkNleHBsb3JhdG9yeSUyQ2p1cHl0ZXIlMkNudW1weSUyQ3BhbmRhcyUyQ21hdHBsb3RsaWIlMkNza2xlYXJu" data-listing-date-sort="1669017600000" data-listing-file-modified-sort="1705801298940" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113" data-listing-title-sort="Emergency Calls" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Nov 21, 2022</span>
 </td>
@@ -374,7 +423,7 @@ Description
 <span class="listing-description">Analysis of Seattle Police Department call center data.</span>
 </td>
 </tr>
-<tr data-index="10" data-categories="python" data-listing-date-sort="1655359200000" data-listing-file-modified-sort="1705801458276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Rudimentary Python Projects" data-listing-filename-sort="index.qmd">
+<tr data-index="12" data-categories="cHl0aG9u" data-listing-date-sort="1655362800000" data-listing-file-modified-sort="1705801458276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Rudimentary Python Projects" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Jun 16, 2022</span>
 </td>
@@ -385,7 +434,7 @@ Description
 <span class="listing-description">As I was just starting to practice coding in python. Additionally, added to my portfolio prior to a fuller understanding of Git and writing “proper” READMEs.</span>
 </td>
 </tr>
-<tr data-index="11" data-categories="excel,vba,automation,widgets" data-listing-date-sort="1650780000000" data-listing-file-modified-sort="1705898011162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148" data-listing-title-sort="VBA Projects" data-listing-filename-sort="index.qmd">
+<tr data-index="13" data-categories="ZXhjZWwlMkN2YmElMkNhdXRvbWF0aW9uJTJDd2lkZ2V0cw==" data-listing-date-sort="1650783600000" data-listing-file-modified-sort="1705898011162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148" data-listing-title-sort="VBA Projects" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Apr 24, 2022</span>
 </td>
@@ -437,18 +486,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -480,7 +518,45 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -515,7 +591,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -530,27 +610,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -565,10 +624,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -577,8 +640,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

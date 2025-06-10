@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.525">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Carl Klein - Featured Projects</title>
+<title>Featured Projects – Carl Klein</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5f3c358ee78b9d0d8421e9158f524a34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,8 +99,35 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -117,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -139,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Guides</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resume" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resume" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Resume</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resume">    
@@ -156,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span>
@@ -188,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -199,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="api">api <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bootstrap">bootstrap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data-mining">data-mining <span class="quarto-category-count">(2)</span></div><div class="category" data-category="exploratory">exploratory <span class="quarto-category-count">(2)</span></div><div class="category" data-category="flask">flask <span class="quarto-category-count">(1)</span></div><div class="category" data-category="html">html <span class="quarto-category-count">(1)</span></div><div class="category" data-category="javascript">javascript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine-learning">machine-learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="plotly">plotly <span class="quarto-category-count">(2)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="spatial-analysis">spatial-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="temporal-analysis">temporal-analysis <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(3)</span></div><div class="category" data-category="YXBp">api <span class="quarto-category-count">(3)</span></div><div class="category" data-category="YXdz">aws <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ym9vdHN0cmFw">bootstrap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xvdWQ=">cloud <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3Nz">css <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YS1taW5pbmc=">data-mining <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZGVwbG95bWVudA==">deployment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXhwbG9yYXRvcnk=">exploratory <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Zmxhc2s=">flask <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z2l0aHVi">github <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHRtbA==">html <span class="quarto-category-count">(2)</span></div><div class="category" data-category="amF2YXNjcmlwdA==">javascript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZS1sZWFybmluZw==">machine-learning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cGdhZG1pbg==">pgadmin <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGxvdGx5">plotly <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cHl0aG9u">python <span class="quarto-category-count">(4)</span></div><div class="category" data-category="cXVhcnRv">quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cg==">r <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3BhdGlhbC1hbmFseXNpcw==">spatial-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3Fs">sql <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGVtcG9yYWwtYW5hbHlzaXM=">temporal-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGV4dC1taW5pbmc=">text-mining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJlbGxv">trello <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmVyc2lvbi1jb250cm9s">version-control <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2ViLXNjcmFwaW5n">web-scraping <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -228,10 +255,142 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="python,analysis,bootstrap,flask,javascript,exploratory,quarto,plotly,machine-learning,data-mining,api,html,spatial-analysis,temporal-analysis" data-listing-date-sort="1727762400000" data-listing-file-modified-sort="1727741949837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+<div class="quarto-post image-right" data-index="0" data-categories="cHl0aG9uJTJDZ2l0aHViJTJDZmxhc2slMkNjc3MlMkNodG1sJTJDd2ViLXNjcmFwaW5nJTJDYXBpJTJDdmVyc2lvbi1jb250cm9sJTJDY2xvdWQlMkN0cmVsbG8lMkNhd3MlMkNzcWwlMkNwZ2FkbWluJTJDZGVwbG95bWVudA==" data-listing-date-sort="1746082800000" data-listing-file-modified-sort="1749524328564" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
+<div class="thumbnail">
+<p><a href="./posts/featured/interview-app/index.html" class="no-external"></a></p><a href="./posts/featured/interview-app/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/featured/interview-app/database_design.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/featured/interview-app/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/featured/interview-app/index.html" class="no-external">Interview Application</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/featured/interview-app/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
+python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Z2l0aHVi'); return false;">
+github
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Zmxhc2s='); return false;">
+flask
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Y3Nz'); return false;">
+css
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('aHRtbA=='); return false;">
+html
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('d2ViLXNjcmFwaW5n'); return false;">
+web-scraping
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('YXBp'); return false;">
+api
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dmVyc2lvbi1jb250cm9s'); return false;">
+version-control
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Y2xvdWQ='); return false;">
+cloud
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dHJlbGxv'); return false;">
+trello
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('YXdz'); return false;">
+aws
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('c3Fs'); return false;">
+sql
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cGdhZG1pbg=='); return false;">
+pgadmin
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZGVwbG95bWVudA=='); return false;">
+deployment
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/featured/interview-app/index.html" class="no-external">This project was a team collaboration to build a web application with a cloud-based backend. The web application allows a user to create an account, populate a quiz with…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/featured/interview-app/index.html" class="no-external">
+<div class="listing-date">
+May 1, 2025
+</div>
+<div class="listing-author">
+Carl Klein, Julia Gallwitz, Aishwarya Puranik, Ima Mervin, Anuj Hundia
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="cHl0aG9uJTJDYW5hbHlzaXMlMkNleHBsb3JhdG9yeSUyQ3F1YXJ0byUyQ3Bsb3RseSUyQ21hY2hpbmUtbGVhcm5pbmclMkNkYXRhLW1pbmluZyUyQ3RleHQtbWluaW5nJTJDYXBpJTJDcg==" data-listing-date-sort="1746082800000" data-listing-file-modified-sort="1749256044704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+<div class="thumbnail">
+<p><a href="./posts/featured/student-loan-forgiveness/index.html" class="no-external"></a></p><a href="./posts/featured/student-loan-forgiveness/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/featured/student-loan-forgiveness/bespoke_results.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/featured/student-loan-forgiveness/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/featured/student-loan-forgiveness/index.html" class="no-external">Student Loan Forgivess - Text Mining</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/featured/student-loan-forgiveness/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
+python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
+analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZXhwbG9yYXRvcnk='); return false;">
+exploratory
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhcnRv'); return false;">
+quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cGxvdGx5'); return false;">
+plotly
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZS1sZWFybmluZw=='); return false;">
+machine-learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YS1taW5pbmc='); return false;">
+data-mining
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dGV4dC1taW5pbmc='); return false;">
+text-mining
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('YXBp'); return false;">
+api
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cg=='); return false;">
+r
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/featured/student-loan-forgiveness/index.html" class="no-external">This project analyzed sentiment on the topic of <strong>student loan forgiveness</strong> across news articles and Reddit posts.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/featured/student-loan-forgiveness/index.html" class="no-external">
+<div class="listing-date">
+May 1, 2025
+</div>
+<div class="listing-author">
+Carl Klein
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="cHl0aG9uJTJDYW5hbHlzaXMlMkNib290c3RyYXAlMkNmbGFzayUyQ2phdmFzY3JpcHQlMkNleHBsb3JhdG9yeSUyQ3F1YXJ0byUyQ3Bsb3RseSUyQ21hY2hpbmUtbGVhcm5pbmclMkNkYXRhLW1pbmluZyUyQ2FwaSUyQ2h0bWwlMkNzcGF0aWFsLWFuYWx5c2lzJTJDdGVtcG9yYWwtYW5hbHlzaXM=" data-listing-date-sort="1727766000000" data-listing-file-modified-sort="1727741949837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
 <div class="thumbnail">
 <p><a href="./posts/featured/snowbound/index.html" class="no-external"></a></p><a href="./posts/featured/snowbound/index.html" class="no-external">
-<p><img src="./posts/featured/snowbound/snowbound.png" class="thumbnail-image"></p>
+<p><img loading="lazy" src="./posts/featured/snowbound/snowbound.png" class="thumbnail-image"></p>
 </a><p><a href="./posts/featured/snowbound/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -242,46 +401,46 @@ ul.task-list li input[type="checkbox"] {
 <a href="./posts/featured/snowbound/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
 python
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
 analysis
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('bootstrap'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Ym9vdHN0cmFw'); return false;">
 bootstrap
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('flask'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Zmxhc2s='); return false;">
 flask
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('javascript'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('amF2YXNjcmlwdA=='); return false;">
 javascript
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('exploratory'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZXhwbG9yYXRvcnk='); return false;">
 exploratory
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhcnRv'); return false;">
 quarto
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('plotly'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cGxvdGx5'); return false;">
 plotly
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine-learning'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZS1sZWFybmluZw=='); return false;">
 machine-learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('data-mining'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YS1taW5pbmc='); return false;">
 data-mining
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('api'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('YXBp'); return false;">
 api
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('html'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('aHRtbA=='); return false;">
 html
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('spatial-analysis'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbC1hbmFseXNpcw=='); return false;">
 spatial-analysis
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('temporal-analysis'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('dGVtcG9yYWwtYW5hbHlzaXM='); return false;">
 temporal-analysis
 </div>
 </div>
@@ -300,10 +459,10 @@ Carl Klein
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="python,analysis,exploratory,quarto,plotly,machine-learning,data-mining" data-listing-date-sort="1714543200000" data-listing-file-modified-sort="1727741310053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
+<div class="quarto-post image-right" data-index="3" data-categories="cHl0aG9uJTJDYW5hbHlzaXMlMkNleHBsb3JhdG9yeSUyQ3F1YXJ0byUyQ3Bsb3RseSUyQ21hY2hpbmUtbGVhcm5pbmclMkNkYXRhLW1pbmluZw==" data-listing-date-sort="1714546800000" data-listing-file-modified-sort="1727741310053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
 <div class="thumbnail">
 <p><a href="./posts/featured/brewery-project/index.html" class="no-external"></a></p><a href="./posts/featured/brewery-project/index.html" class="no-external">
-<p><img src="./posts/featured/brewery-project/hypertuned_models.png" class="thumbnail-image"></p>
+<p><img loading="lazy" src="./posts/featured/brewery-project/hypertuned_models.png" class="thumbnail-image"></p>
 </a><p><a href="./posts/featured/brewery-project/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -314,25 +473,25 @@ Carl Klein
 <a href="./posts/featured/brewery-project/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
 python
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">
 analysis
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('exploratory'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZXhwbG9yYXRvcnk='); return false;">
 exploratory
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhcnRv'); return false;">
 quarto
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('plotly'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cGxvdGx5'); return false;">
 plotly
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine-learning'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZS1sZWFybmluZw=='); return false;">
 machine-learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('data-mining'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YS1taW5pbmc='); return false;">
 data-mining
 </div>
 </div>
@@ -391,18 +550,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -434,7 +582,45 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -469,7 +655,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -484,27 +674,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -519,10 +688,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -531,8 +704,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
